@@ -1,0 +1,164 @@
+2025-02-04 11:23:38,342 - INFO - Запуск открытия ICDD...
+2025-02-04 14:10:55,802 - INFO - ICDD извлечён в: C:\Users\Aleks\AppData\Local\Temp\tmpo6zqt_ar
+2025-02-04 20:06:04,212 - INFO - Запуск создания ICDD...
+2025-02-04 20:06:25,012 - INFO - Index.rdf создан в C:/Users/Aleks/Desktop\Test_1\Index.rdf
+2025-02-04 20:06:25,848 - INFO - ICDD создан: C:/Users/Aleks/Desktop\Test_1.icdd
+2025-02-04 20:07:13,220 - INFO - Запуск создания ICDD...
+2025-02-04 20:07:20,914 - INFO - Index.rdf создан в C:/Users/Aleks/Desktop\Test_1\Index.rdf
+2025-02-04 20:07:22,433 - INFO - ICDD создан: C:/Users/Aleks/Desktop\Test_1.icdd
+2025-02-04 20:07:25,108 - INFO - Запуск открытия ICDD...
+2025-02-04 20:07:35,128 - INFO - ICDD извлечён в: C:\Users\Aleks\AppData\Local\Temp\tmpvq9exnvo
+2025-02-04 20:11:14,548 - INFO - Импорт CDE Backup запущен.
+2025-02-04 20:11:22,418 - INFO - Flattened double 'CDE Backup_1'.
+2025-02-04 20:21:15,756 - INFO - Запуск открытия ICDD...
+2025-02-04 20:21:33,611 - INFO - ICDD извлечён в: C:\Users\Aleks\AppData\Local\Temp\tmpeqgu0qgd
+2025-02-04 20:21:53,124 - INFO - Импорт CDE Backup запущен.
+2025-02-04 20:30:57,804 - INFO - Запуск создания ICDD...
+2025-02-04 20:31:10,407 - INFO - Index.rdf создан в C:/Users/Aleks/Desktop\Test_2\Index.rdf
+2025-02-04 20:31:11,395 - INFO - ICDD создан: C:/Users/Aleks/Desktop\Test_2.icdd
+2025-02-04 20:31:12,292 - INFO - Запуск открытия ICDD...
+2025-02-04 20:31:22,018 - INFO - ICDD извлечён в: C:\Users\Aleks\AppData\Local\Temp\tmpuwcdkbn1
+2025-02-04 20:32:19,204 - INFO - Импорт CDE Backup запущен.
+2025-02-04 20:32:22,244 - INFO - ICDD извлечён в C:\Users\Aleks\AppData\Local\Temp\tmp_470qzld
+2025-02-04 20:32:33,258 - INFO - CDE Backup извлечён в C:\Users\Aleks\AppData\Local\Temp\tmp6x_fpgn1
+2025-02-04 20:32:33,261 - INFO - Flattened double 'CDE Backup_1'.
+2025-02-04 20:32:39,656 - INFO - Index.rdf обновлён.
+2025-02-04 20:33:35,563 - INFO - Обновленный ICDD сохранён: C:/Users/Aleks/Desktop/Test_2_CDE.icdd
+2025-02-04 20:33:36,515 - INFO - Запуск открытия ICDD...
+2025-02-04 20:34:11,513 - INFO - ICDD извлечён в: C:\Users\Aleks\AppData\Local\Temp\tmpjk9o6cju
+2025-02-08 12:06:41,701 - INFO - Запуск создания ICDD...
+2025-02-08 12:07:09,003 - INFO - Index.rdf создан в C:/Users/Aleks/Desktop\Test_1\Index.rdf
+2025-02-08 12:07:09,769 - INFO - ICDD создан: C:/Users/Aleks/Desktop\Test_1.icdd
+2025-02-08 12:08:50,004 - INFO - Запуск открытия ICDD...
+2025-02-08 12:09:00,712 - INFO - ICDD извлечён в: C:\Users\Aleks\AppData\Local\Temp\tmpygs2r55s
+2025-02-08 12:09:05,420 - INFO - Импорт CDE Backup запущен.
+2025-02-08 12:09:08,852 - INFO - ICDD извлечён в C:\Users\Aleks\AppData\Local\Temp\tmpnlm0xkqf
+2025-02-08 12:09:13,206 - INFO - CDE Backup извлечён в C:\Users\Aleks\AppData\Local\Temp\tmp5a32dmbn
+2025-02-08 12:09:13,209 - INFO - Flattened nested 'CDE Backup_1' folder.
+2025-02-08 12:09:21,791 - INFO - Index.rdf обновлён.
+2025-02-08 12:09:33,392 - INFO - Обновленный ICDD сохранён: C:/Users/Aleks/Desktop/Test_1_CDE.icdd
+2025-02-08 12:12:55,548 - INFO - Импорт CDE Backup запущен.
+2025-02-08 12:13:05,964 - INFO - Запуск открытия ICDD...
+2025-02-08 12:13:32,993 - INFO - ICDD извлечён в: C:\Users\Aleks\AppData\Local\Temp\tmpau56vxqe
+2025-02-08 12:22:47,250 - INFO - ICDD извлечён в C:\Users\Aleks\AppData\Local\Temp\tmp2dntw3qm
+2025-02-08 12:22:52,884 - INFO - Found document by ct:filename: http://example.com/container/InternalDocument20f0efcd-8510-4f4b-8ad5-5a6a53995748
+2025-02-08 12:22:52,884 - INFO - Found document by ct:filename: http://example.com/container/InternalDocumentd0096fbb-511f-4a75-bf22-7a977c7e0686
+2025-02-08 12:22:52,885 - INFO - Found document by ct:filename: http://example.com/container/InternalDocument20f0efcd-8510-4f4b-8ad5-5a6a53995748
+2025-02-08 12:22:52,885 - INFO - Found document by ct:filename: http://example.com/container/InternalDocumente4b4adb5-7f94-49c1-bb29-e793fc898fff
+2025-02-08 12:22:52,885 - INFO - Found document by ct:filename: http://example.com/container/InternalDocument20f0efcd-8510-4f4b-8ad5-5a6a53995748
+2025-02-08 12:22:52,885 - INFO - Found document by ct:filename: http://example.com/container/InternalDocument396a0311-70b0-41eb-8d6a-589e54873ba5
+2025-02-08 12:22:52,886 - INFO - Found document by ct:filename: http://example.com/container/InternalDocument396a0311-70b0-41eb-8d6a-589e54873ba5
+2025-02-08 12:22:52,886 - INFO - Found document by ct:filename: http://example.com/container/InternalDocumente4b4adb5-7f94-49c1-bb29-e793fc898fff
+2025-02-08 12:22:52,888 - INFO - Файл связей сохранён: C:\Users\Aleks\AppData\Local\Temp\tmp2dntw3qm\Payload triples\LinksetRelations_de50a17e-de82-474a-a772-ffd3f4322baa.rdf
+2025-02-08 12:22:52,888 - WARNING - Payload triples/LinksetRelations_de50a17e-de82-474a-a772-ffd3f4322baa.rdf does not look like a valid URI, trying to serialize this will break.
+2025-02-08 12:22:52,893 - INFO - Index.rdf обновлён ссылкой на файл связей.
+2025-02-08 12:23:08,468 - INFO - Обновленный ICDD успешно сохранён: C:/Users/Aleks/Desktop/Test_1_CDE_Links.icdd
+2025-02-08 12:23:50,548 - INFO - Запуск открытия ICDD...
+2025-02-08 12:30:21,029 - INFO - ICDD извлечён в: C:\Users\Aleks\AppData\Local\Temp\tmpaka3qnpb
+2025-02-08 12:30:28,995 - INFO - Запуск открытия ICDD...
+2025-02-08 12:30:43,176 - INFO - ICDD извлечён в: C:\Users\Aleks\AppData\Local\Temp\tmp_9lpg3rq
+2025-02-14 19:38:49,546 - INFO - Запуск создания ICDD...
+2025-02-14 19:38:52,867 - INFO - Запуск создания ICDD...
+2025-02-14 19:39:04,591 - INFO - Index.rdf создан в C:/Users/Aleks/Desktop\Test_1\Index.rdf
+2025-02-14 19:39:05,621 - INFO - ICDD создан: C:/Users/Aleks/Desktop\Test_1.icdd
+2025-02-14 19:39:06,130 - INFO - Запуск открытия ICDD...
+2025-02-14 19:39:09,218 - INFO - Импорт CDE Backup запущен.
+2025-02-14 19:39:12,653 - INFO - ICDD извлечён в C:\Users\Aleks\AppData\Local\Temp\tmpowsbzn33
+2025-02-14 19:39:23,406 - INFO - CDE Backup извлечён в C:\Users\Aleks\AppData\Local\Temp\tmp1hum63qn
+2025-02-14 19:39:23,412 - INFO - Flattened nested 'CDE Backup_1' folder.
+2025-02-14 19:39:45,409 - INFO - Index.rdf обновлён.
+2025-02-14 19:39:48,882 - INFO - Импорт CDE Backup запущен.
+2025-02-14 19:39:55,830 - INFO - ICDD извлечён в C:\Users\Aleks\AppData\Local\Temp\tmp_t00wwym
+2025-02-14 19:39:59,878 - INFO - CDE Backup извлечён в C:\Users\Aleks\AppData\Local\Temp\tmp_3xh54q0
+2025-02-14 19:39:59,880 - INFO - Flattened nested 'CDE Backup_1' folder.
+2025-02-14 19:40:08,721 - INFO - Index.rdf обновлён.
+2025-02-14 19:40:18,862 - INFO - Обновленный ICDD сохранён: C:/Users/Aleks/Desktop/Test_1_CDE.icdd
+2025-02-14 19:40:32,738 - INFO - Запуск открытия ICDD...
+2025-02-17 09:04:03,420 - INFO - Запуск создания ICDD...
+2025-02-17 09:04:18,764 - INFO - Index.rdf создан в C:/Users/Aleks/Desktop\Test_2\Index.rdf
+2025-02-17 09:04:19,854 - INFO - ICDD создан: C:/Users/Aleks/Desktop\Test_2.icdd
+2025-02-17 09:04:21,210 - INFO - Запуск открытия ICDD...
+2025-02-17 09:04:30,992 - INFO - ICDD извлечён в: C:\Users\Aleks\AppData\Local\Temp\tmplko2ce_r
+2025-02-17 09:04:31,826 - INFO - Запуск открытия ICDD...
+2025-02-17 09:04:35,316 - INFO - Импорт CDE Backup запущен.
+2025-02-17 09:04:38,845 - INFO - ICDD извлечён в C:\Users\Aleks\AppData\Local\Temp\tmpo9ofyw1u
+2025-02-17 09:04:43,946 - INFO - CDE Backup извлечён в C:\Users\Aleks\AppData\Local\Temp\tmpf07efto2
+2025-02-17 09:04:43,949 - INFO - Flattened nested 'CDE Backup_1' folder.
+2025-02-17 09:04:51,395 - INFO - Index.rdf обновлён.
+2025-02-17 09:05:02,486 - INFO - Обновленный ICDD сохранён: C:/Users/Aleks/Desktop/Test_2_CDE.icdd
+2025-02-17 09:06:28,280 - INFO - ICDD извлечён в C:\Users\Aleks\AppData\Local\Temp\tmp4ngsbrbp
+2025-02-17 09:06:35,289 - INFO - ICDD извлечён в C:\Users\Aleks\AppData\Local\Temp\tmp399z9c5s
+2025-02-17 09:06:45,493 - INFO - Found document by ct:filename: http://example.com/container/InternalDocument96ae79fb-461e-4e46-acf8-8dcec03186a5
+2025-02-17 09:06:45,493 - INFO - Found document by ct:filename: http://example.com/container/InternalDocumentcb269946-ecc1-46f5-922b-150571cd7598
+2025-02-17 09:06:45,494 - INFO - Found document by ct:filename: http://example.com/container/InternalDocument96ae79fb-461e-4e46-acf8-8dcec03186a5
+2025-02-17 09:06:45,494 - INFO - Found document by ct:filename: http://example.com/container/InternalDocumente6d01296-bd9a-46f2-b048-2aecf2a00ca5
+2025-02-17 09:06:45,494 - INFO - Found document by ct:filename: http://example.com/container/InternalDocument96ae79fb-461e-4e46-acf8-8dcec03186a5
+2025-02-17 09:06:45,494 - INFO - Found document by ct:filename: http://example.com/container/InternalDocumente93bbd62-184c-4dd3-b772-f49a691d67d5
+2025-02-17 09:06:45,495 - INFO - Found document by ct:filename: http://example.com/container/InternalDocumente93bbd62-184c-4dd3-b772-f49a691d67d5
+2025-02-17 09:06:45,495 - INFO - Found document by ct:filename: http://example.com/container/InternalDocumente6d01296-bd9a-46f2-b048-2aecf2a00ca5
+2025-02-17 09:06:45,596 - INFO - IFC объекты (IfcWall) обработаны и добавлены в Linkset RDF.
+2025-02-17 09:06:45,598 - INFO - Файл связей сохранён: C:\Users\Aleks\AppData\Local\Temp\tmp399z9c5s\Payload triples\LinksetRelations_75e1808a-ce7e-4dc7-8b52-02539d961459.rdf
+2025-02-17 09:06:45,598 - WARNING - Payload triples/LinksetRelations_75e1808a-ce7e-4dc7-8b52-02539d961459.rdf does not look like a valid URI, trying to serialize this will break.
+2025-02-17 09:06:45,604 - INFO - Index.rdf обновлён ссылкой на файл связей.
+2025-02-17 09:06:59,137 - INFO - Обновленный ICDD успешно сохранён: C:/Users/Aleks/Desktop/Test_2_CDE_Links.icdd
+2025-02-17 09:08:51,683 - INFO - Запуск открытия ICDD...
+2025-02-17 09:16:38,897 - INFO - ICDD извлечён в: C:\Users\Aleks\AppData\Local\Temp\tmpahzvl38q
+2025-02-17 09:32:42,388 - INFO - Импорт CDE Backup запущен.
+2025-02-17 09:32:52,852 - INFO - ICDD извлечён в C:\Users\Aleks\AppData\Local\Temp\tmp3tc3q6jg
+2025-02-17 09:32:59,370 - INFO - Found document by ct:filename: http://example.com/container/InternalDocument96ae79fb-461e-4e46-acf8-8dcec03186a5
+2025-02-17 09:32:59,371 - INFO - Found document by ct:filename: http://example.com/container/InternalDocumentcb269946-ecc1-46f5-922b-150571cd7598
+2025-02-17 09:32:59,371 - INFO - Found document by ct:filename: http://example.com/container/InternalDocument96ae79fb-461e-4e46-acf8-8dcec03186a5
+2025-02-17 09:32:59,371 - INFO - Found document by ct:filename: http://example.com/container/InternalDocumente6d01296-bd9a-46f2-b048-2aecf2a00ca5
+2025-02-17 09:32:59,371 - INFO - Found document by ct:filename: http://example.com/container/InternalDocument96ae79fb-461e-4e46-acf8-8dcec03186a5
+2025-02-17 09:32:59,372 - INFO - Found document by ct:filename: http://example.com/container/InternalDocumente93bbd62-184c-4dd3-b772-f49a691d67d5
+2025-02-17 09:32:59,372 - INFO - Found document by ct:filename: http://example.com/container/InternalDocumente93bbd62-184c-4dd3-b772-f49a691d67d5
+2025-02-17 09:32:59,372 - INFO - Found document by ct:filename: http://example.com/container/InternalDocumente6d01296-bd9a-46f2-b048-2aecf2a00ca5
+2025-02-17 09:32:59,477 - INFO - Обработано 0 объектов типа IfcWall из IFC-файла.
+2025-02-17 09:32:59,486 - INFO - Файл связей сохранён: C:\Users\Aleks\AppData\Local\Temp\tmp3tc3q6jg\Payload triples\LinksetRelations_29ec8ef5-fe1e-4d90-b4ad-0e4ab7dfe801.rdf
+2025-02-17 09:32:59,486 - WARNING - Payload triples/LinksetRelations_29ec8ef5-fe1e-4d90-b4ad-0e4ab7dfe801.rdf does not look like a valid URI, trying to serialize this will break.
+2025-02-17 09:32:59,495 - INFO - Index.rdf обновлён ссылкой на файл связей.
+2025-02-17 09:33:10,066 - INFO - Обновленный ICDD успешно сохранён: C:/Users/Aleks/Desktop/Test_2_CDE_Links_2.icdd
+2025-02-17 09:33:11,763 - INFO - Запуск открытия ICDD...
+2025-02-17 09:33:32,603 - INFO - ICDD извлечён в: C:\Users\Aleks\AppData\Local\Temp\tmpm24x1ggx
+2025-02-17 09:33:50,995 - INFO - Запуск создания ICDD...
+2025-02-17 09:34:00,335 - INFO - Index.rdf создан в C:/Users/Aleks/Desktop\Test_3\Index.rdf
+2025-02-17 09:34:01,443 - INFO - ICDD создан: C:/Users/Aleks/Desktop\Test_3.icdd
+2025-02-17 09:34:03,692 - INFO - Импорт CDE Backup запущен.
+2025-02-17 09:34:06,192 - INFO - ICDD извлечён в C:\Users\Aleks\AppData\Local\Temp\tmpns2i4is4
+2025-02-17 09:34:10,044 - INFO - CDE Backup извлечён в C:\Users\Aleks\AppData\Local\Temp\tmp4vhssi3q
+2025-02-17 09:34:10,048 - INFO - Flattened nested 'CDE Backup_1' folder.
+2025-02-17 09:34:19,815 - INFO - Index.rdf обновлён.
+2025-02-17 09:34:29,940 - INFO - Обновленный ICDD сохранён: C:/Users/Aleks/Desktop/Test_3_CDE.icdd
+2025-02-17 09:34:35,701 - INFO - ICDD извлечён в C:\Users\Aleks\AppData\Local\Temp\tmpcouvvvyw
+2025-02-17 09:34:41,965 - INFO - Found document by ct:filename: http://example.com/container/InternalDocumentdc3fa863-b198-4759-980f-f560460cc632
+2025-02-17 09:34:41,965 - INFO - Found document by ct:filename: http://example.com/container/InternalDocument17eff4a7-0869-49f8-b3f9-e771db33035d
+2025-02-17 09:34:41,966 - INFO - Found document by ct:filename: http://example.com/container/InternalDocumentdc3fa863-b198-4759-980f-f560460cc632
+2025-02-17 09:34:41,966 - INFO - Found document by ct:filename: http://example.com/container/InternalDocumentf1ab5e86-0764-4a5d-95b5-61ba83f9b693
+2025-02-17 09:34:41,966 - INFO - Found document by ct:filename: http://example.com/container/InternalDocumentdc3fa863-b198-4759-980f-f560460cc632
+2025-02-17 09:34:41,966 - INFO - Found document by ct:filename: http://example.com/container/InternalDocument6fc58d11-75e2-49a0-a761-6d2c547339ab
+2025-02-17 09:34:41,967 - INFO - Found document by ct:filename: http://example.com/container/InternalDocument6fc58d11-75e2-49a0-a761-6d2c547339ab
+2025-02-17 09:34:41,967 - INFO - Found document by ct:filename: http://example.com/container/InternalDocumentf1ab5e86-0764-4a5d-95b5-61ba83f9b693
+2025-02-17 09:34:42,054 - INFO - Обработано 0 объектов типа IfcWall из IFC-файла.
+2025-02-17 09:34:42,057 - INFO - Файл связей сохранён: C:\Users\Aleks\AppData\Local\Temp\tmpcouvvvyw\Payload triples\LinksetRelations_05a4e1f9-be77-49c2-a9dc-7a2c72e4f96b.rdf
+2025-02-17 09:34:42,057 - WARNING - Payload triples/LinksetRelations_05a4e1f9-be77-49c2-a9dc-7a2c72e4f96b.rdf does not look like a valid URI, trying to serialize this will break.
+2025-02-17 09:34:42,063 - INFO - Index.rdf обновлён ссылкой на файл связей.
+2025-02-17 09:34:52,860 - INFO - Обновленный ICDD успешно сохранён: C:/Users/Aleks/Desktop/Test_3_CDE_Links.icdd
+2025-02-17 09:35:11,275 - INFO - Запуск открытия ICDD...
+2025-02-17 09:35:18,546 - INFO - ICDD извлечён в: C:\Users\Aleks\AppData\Local\Temp\tmpoyrsic3z
+2025-02-17 09:39:30,460 - INFO - Запуск открытия ICDD...
+2025-02-17 09:39:41,915 - INFO - ICDD извлечён в: C:\Users\Aleks\AppData\Local\Temp\tmpu78xhbx9
+2025-02-17 09:49:27,763 - INFO - ICDD извлечён в C:\Users\Aleks\AppData\Local\Temp\tmpellg8584
+2025-02-17 09:49:34,534 - INFO - Found document by ct:filename: http://example.com/container/InternalDocumentdc3fa863-b198-4759-980f-f560460cc632
+2025-02-17 09:49:34,534 - INFO - Found document by ct:filename: http://example.com/container/InternalDocument17eff4a7-0869-49f8-b3f9-e771db33035d
+2025-02-17 09:49:34,534 - INFO - Found document by ct:filename: http://example.com/container/InternalDocumentdc3fa863-b198-4759-980f-f560460cc632
+2025-02-17 09:49:34,535 - INFO - Found document by ct:filename: http://example.com/container/InternalDocumentf1ab5e86-0764-4a5d-95b5-61ba83f9b693
+2025-02-17 09:49:34,535 - INFO - Found document by ct:filename: http://example.com/container/InternalDocumentdc3fa863-b198-4759-980f-f560460cc632
+2025-02-17 09:49:34,535 - INFO - Found document by ct:filename: http://example.com/container/InternalDocument6fc58d11-75e2-49a0-a761-6d2c547339ab
+2025-02-17 09:49:34,535 - INFO - Found document by ct:filename: http://example.com/container/InternalDocument6fc58d11-75e2-49a0-a761-6d2c547339ab
+2025-02-17 09:49:34,535 - INFO - Found document by ct:filename: http://example.com/container/InternalDocumentf1ab5e86-0764-4a5d-95b5-61ba83f9b693
+2025-02-17 09:49:34,635 - INFO - Обработано 0 объектов типа IfcWall из IFC-файла.
+2025-02-17 09:49:34,646 - INFO - Файл связей сохранён: C:\Users\Aleks\AppData\Local\Temp\tmpellg8584\Payload triples\LinksetRelations_155934e1-b8d3-4378-a685-2602cb2be785.rdf
+2025-02-17 09:49:34,646 - WARNING - Payload triples/LinksetRelations_155934e1-b8d3-4378-a685-2602cb2be785.rdf does not look like a valid URI, trying to serialize this will break.
+2025-02-17 09:49:34,651 - INFO - Index.rdf обновлён ссылкой на файл связей.
+2025-02-17 09:49:44,922 - INFO - Обновленный ICDD успешно сохранён: C:/Users/Aleks/Desktop/Test_3_CDE_Links_2.icdd
+2025-02-17 09:49:47,012 - INFO - Запуск открытия ICDD...
