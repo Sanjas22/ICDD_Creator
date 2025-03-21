@@ -13,7 +13,7 @@ LOCAL_ONTOLOGIES_PATH = os.path.join(os.path.dirname(__file__), '..', 'local_ont
 
 def create_icdd():
     logger.info("Starting ICDD creation...")
-    base_uri = simpledialog.askstring("Input", "Enter the Base URL:", initialvalue="http://example.com/container")
+    base_uri = simpledialog.askstring("Input", "Enter the Base URI:", initialvalue="http://example.com/container")
     if not base_uri:
         messagebox.showwarning("ICDD Creation", "The Base URI has not been entered.")
         return

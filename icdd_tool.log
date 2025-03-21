@@ -317,3 +317,490 @@
 2025-03-19 00:57:59,643 - INFO - Starting the ICDD...
 2025-03-19 00:58:01,444 - INFO - ICDD extracted in: C:\Users\Aleks\AppData\Local\Temp\tmpd_l33zst
 2025-03-19 00:58:20,356 - INFO - Temporary directory C:\Users\Aleks\AppData\Local\Temp\tmpd_l33zst deleted.
+2025-03-20 14:30:07,281 - INFO - Index.rdf создан в C:/Users/Aleks/Desktop\TESSSSS\Index.rdf
+2025-03-20 14:30:34,745 - INFO - CDE Backup извлечён в C:\Users\Aleks\AppData\Local\Temp\tmpjsg2sr0a
+2025-03-20 14:30:34,748 - INFO - Flattened nested 'CDE Backup_1' folder.
+2025-03-20 14:30:48,930 - INFO - Index.rdf обновлён после импорта CDE Backup.
+2025-03-20 14:30:53,182 - INFO - Найдено IFC документов: 1
+2025-03-20 14:30:53,182 - INFO - IFC full path: C:/Users/Aleks/Desktop\TESSSSS\Payload documents\CDE Backup_1\02_Untersuchungsplanung\20230907_TM_Untersuchungsplanung_a.ifc
+2025-03-20 14:30:53,273 - INFO - Объекты типа IfcWall не найдены, пробуем IfcProduct.
+2025-03-20 14:30:53,274 - INFO - Из IFC файла CDE Backup_1/02_Untersuchungsplanung/20230907_TM_Untersuchungsplanung_a.ifc загружено объектов: 26
+2025-03-20 14:30:53,311 - WARNING - Document with path 'CDE Backup_1/GrundlagenInformationen/00815_BW816_KI_E_MF_001_--_z_TBW1.ifc' not found.
+2025-03-20 14:30:53,311 - WARNING - Document with path 'CDE Backup_1/GrundlagenInformationen/00815_BW816_KI_E_MF_001_--_z_TBW2.ifc' not found.
+2025-03-20 14:30:53,311 - WARNING - Документы не найдены для путей: CDE Backup_1/GrundlagenInformationen/00815_BW816_KI_E_MF_001_--_z_TBW1.ifc или CDE Backup_1/GrundlagenInformationen/00815_BW816_KI_E_MF_001_--_z_TBW2.ifc
+2025-03-20 14:30:53,312 - WARNING - Document with path 'CDE Backup_1/GrundlagenInformationen/00815_BW816_KI_E_MF_001_--_z_TBW1.ifc' not found.
+2025-03-20 14:30:53,312 - INFO - Found document by ct:filename: http://example.com/container/InternalDocument10cf2c8b-dc1d-462a-98ce-93d22597f3be
+2025-03-20 14:30:53,312 - WARNING - Документы не найдены для путей: CDE Backup_1/GrundlagenInformationen/00815_BW816_KI_E_MF_001_--_z_TBW1.ifc или CDE Backup_1/02_Untersuchungsplanung/20230907_TM_Untersuchungsplanung_a.ifc
+2025-03-20 14:30:53,312 - WARNING - Document with path 'CDE Backup_1/GrundlagenInformationen/00815_BW816_KI_E_MF_001_--_z_TBW1.ifc' not found.
+2025-03-20 14:30:53,312 - WARNING - Document with path 'CDE Backup_1/02_Untersuchungsplanung/20230425_05219_02_AP2_kok_Untersuchungsplanung_Betondruckfestigkeit_klassisch.pdf' not found.
+2025-03-20 14:30:53,312 - WARNING - Документы не найдены для путей: CDE Backup_1/GrundlagenInformationen/00815_BW816_KI_E_MF_001_--_z_TBW1.ifc или CDE Backup_1/02_Untersuchungsplanung/20230425_05219_02_AP2_kok_Untersuchungsplanung_Betondruckfestigkeit_klassisch.pdf
+2025-03-20 14:30:53,312 - WARNING - Document with path 'CDE Backup_1/02_Untersuchungsplanung/20230425_05219_02_AP2_kok_Untersuchungsplanung_Betondruckfestigkeit_klassisch.pdf' not found.
+2025-03-20 14:30:53,312 - INFO - Found document by ct:filename: http://example.com/container/InternalDocument10cf2c8b-dc1d-462a-98ce-93d22597f3be
+2025-03-20 14:30:53,312 - WARNING - Документы не найдены для путей: CDE Backup_1/02_Untersuchungsplanung/20230425_05219_02_AP2_kok_Untersuchungsplanung_Betondruckfestigkeit_klassisch.pdf или CDE Backup_1/02_Untersuchungsplanung/20230907_TM_Untersuchungsplanung_a.ifc
+2025-03-20 14:30:53,312 - WARNING - Document with path 'CDE Backup_1/02_Untersuchungsplanung/20230425_05219_02_AP2_kok_Untersuchungsplanung_Betondruckfestigkeit_klassisch.pdf' not found.
+2025-03-20 14:30:53,312 - INFO - Found document by ct:filename: http://example.com/container/InternalDocumenta058650c-1ba3-4139-af1f-f99f3fbf12a8
+2025-03-20 14:30:53,312 - WARNING - Документы не найдены для путей: CDE Backup_1/02_Untersuchungsplanung/20230425_05219_02_AP2_kok_Untersuchungsplanung_Betondruckfestigkeit_klassisch.pdf или CDE Backup_1/01_Vertragsunterlagen/20240619_Lv_sty_ohne_Preise_modellbasierte.pdf
+2025-03-20 14:30:53,312 - WARNING - Document with path 'CDE Backup_1/02_Untersuchungsplanung/20230425_05219_02_AP2_kok_Untersuchungsplanung_Betondruckfestigkeit_klassisch.pdf' not found.
+2025-03-20 14:30:53,312 - INFO - Found document by ct:filename: http://example.com/container/InternalDocumentdd7015cd-60a1-4c5b-873b-38257357aec8
+2025-03-20 14:30:53,314 - WARNING - Документы не найдены для путей: CDE Backup_1/02_Untersuchungsplanung/20230425_05219_02_AP2_kok_Untersuchungsplanung_Betondruckfestigkeit_klassisch.pdf или CDE Backup_1/01_Vertragsunterlagen/20231110_openSIM_Objektkatalog.xlsx
+2025-03-20 14:30:53,314 - INFO - Found document by ct:filename: http://example.com/container/InternalDocumentb1fc17cb-876e-4c14-a06c-9d945ad22ef9
+2025-03-20 14:30:53,314 - INFO - Found document by ct:filename: http://example.com/container/InternalDocument058cbb10-b54f-49e3-88e1-dc637ea4d43a
+2025-03-20 14:30:53,314 - INFO - Found document by ct:filename: http://example.com/container/InternalDocumenta058650c-1ba3-4139-af1f-f99f3fbf12a8
+2025-03-20 14:30:53,314 - WARNING - Document with path 'CDE Backup_1/GrundlagenInformationen/00815_BW816_KI_E_MF_001_--_z_TBW1.ifc' not found.
+2025-03-20 14:30:53,314 - WARNING - Документы не найдены для путей: CDE Backup_1/01_Vertragsunterlagen/20240619_Lv_sty_ohne_Preise_modellbasierte.pdf или CDE Backup_1/GrundlagenInformationen/00815_BW816_KI_E_MF_001_--_z_TBW1.ifc
+2025-03-20 14:30:53,314 - INFO - Found document by ct:filename: http://example.com/container/InternalDocumentdd7015cd-60a1-4c5b-873b-38257357aec8
+2025-03-20 14:30:53,315 - WARNING - Document with path 'CDE Backup_1/GrundlagenInformationen/00815_BW816_KI_E_MF_001_--_z_TBW1.ifc' not found.
+2025-03-20 14:30:53,315 - WARNING - Документы не найдены для путей: CDE Backup_1/01_Vertragsunterlagen/20231110_openSIM_Objektkatalog.xlsx или CDE Backup_1/GrundlagenInformationen/00815_BW816_KI_E_MF_001_--_z_TBW1.ifc
+2025-03-20 14:30:53,315 - INFO - Found document by ct:filename: http://example.com/container/InternalDocumentb1fc17cb-876e-4c14-a06c-9d945ad22ef9
+2025-03-20 14:30:53,315 - INFO - Found document by ct:filename: http://example.com/container/InternalDocument52ad6770-5b8a-4d66-ab0c-7eba8e803a61
+2025-03-20 14:30:53,315 - INFO - Found document by ct:filename: http://example.com/container/InternalDocumentb1fc17cb-876e-4c14-a06c-9d945ad22ef9
+2025-03-20 14:30:53,316 - INFO - Found document by ct:filename: http://example.com/container/InternalDocument5bd764a2-71fb-43c5-90c6-962d733a5855
+2025-03-20 14:30:53,316 - WARNING - Document with path 'CDE Backup_1/GrundlagenInformationen/00815_BW816_KI_E_MF_001_--_z_TBW2.ifc' not found.
+2025-03-20 14:30:53,316 - INFO - Found document by ct:filename: http://example.com/container/InternalDocument10cf2c8b-dc1d-462a-98ce-93d22597f3be
+2025-03-20 14:30:53,316 - WARNING - Документы не найдены для путей: CDE Backup_1/GrundlagenInformationen/00815_BW816_KI_E_MF_001_--_z_TBW2.ifc или CDE Backup_1/02_Untersuchungsplanung/20230907_TM_Untersuchungsplanung_a.ifc
+2025-03-20 14:30:53,316 - INFO - Found document by ct:filename: http://example.com/container/InternalDocumenta058650c-1ba3-4139-af1f-f99f3fbf12a8
+2025-03-20 14:30:53,316 - WARNING - Document with path 'CDE Backup_1/links.csv' not found.
+2025-03-20 14:30:53,317 - WARNING - Документы не найдены для путей: CDE Backup_1/01_Vertragsunterlagen/20240619_Lv_sty_ohne_Preise_modellbasierte.pdf или CDE Backup_1/links.csv
+2025-03-20 14:30:53,317 - INFO - Found document by ct:filename: http://example.com/container/InternalDocument52ad6770-5b8a-4d66-ab0c-7eba8e803a61
+2025-03-20 14:30:53,317 - INFO - Found document by ct:filename: http://example.com/container/InternalDocumentb1fc17cb-876e-4c14-a06c-9d945ad22ef9
+2025-03-20 14:30:53,317 - INFO - Found document by ct:filename: http://example.com/container/InternalDocument10cf2c8b-dc1d-462a-98ce-93d22597f3be
+2025-03-20 14:30:53,317 - INFO - Found document by ct:filename: http://example.com/container/InternalDocument52ad6770-5b8a-4d66-ab0c-7eba8e803a61
+2025-03-20 14:30:53,318 - INFO - Processing IfcProject in IFC file: C:/Users/Aleks/Desktop\TESSSSS\Payload documents\CDE Backup_1\02_Untersuchungsplanung\20230907_TM_Untersuchungsplanung_a.ifc
+2025-03-20 14:30:53,385 - INFO - Found IfcProject with GlobalId: 223Pa4wvfCy8HqjQa3iQkW in CDE Backup_1/02_Untersuchungsplanung/20230907_TM_Untersuchungsplanung_a.ifc
+2025-03-20 14:30:53,389 - INFO - Link file saved: C:/Users/Aleks/Desktop\TESSSSS\Payload triples\LinksetRelations_3cfa2211-daeb-4dd3-815e-8d37071de552.rdf
+2025-03-20 14:30:53,393 - INFO - Index.rdf updated with the link to the links file.
+2025-03-20 14:31:08,811 - INFO - Updated ICDD saved: C:/Users/Aleks/Desktop/TESTSTSTS.icdd
+2025-03-20 15:02:30,859 - INFO - Index.rdf created at C:/Users/Aleks/Desktop\TESSSSSTETE\Index.rdf
+2025-03-20 15:02:32,350 - INFO - CDE Backup import started.
+2025-03-20 15:02:43,769 - INFO - ICDD extracted into C:\Users\Aleks\AppData\Local\Temp\tmpc85ii7h2
+2025-03-20 15:02:52,609 - INFO - CDE Backup extracted into C:\Users\Aleks\AppData\Local\Temp\tmpjk1f877k
+2025-03-20 15:02:52,612 - INFO - Flattened nested 'CDE Backup_1' folder.
+2025-03-20 15:03:03,087 - INFO - Index.rdf updated (no Linkset).
+2025-03-20 15:03:15,652 - INFO - ICDD extracted into C:\Users\Aleks\AppData\Local\Temp\tmppk73uv15
+2025-03-20 15:03:21,558 - INFO - Found IFC documents: 1
+2025-03-20 15:03:21,558 - INFO - IFC full path: C:\Users\Aleks\AppData\Local\Temp\tmppk73uv15\Payload documents\CDE Backup_1\02_Untersuchungsplanung\20230907_TM_Untersuchungsplanung_a.ifc
+2025-03-20 15:03:21,627 - INFO - No IfcWall found, trying IfcProduct.
+2025-03-20 15:03:21,627 - INFO - IFC objects loaded from CDE Backup_1/02_Untersuchungsplanung/20230907_TM_Untersuchungsplanung_a.ifc: 26
+2025-03-20 15:03:21,630 - WARNING - Document with path 'CDE Backup_1/GrundlagenInformationen/00815_BW816_KI_E_MF_001_--_z_TBW1.ifc' not found.
+2025-03-20 15:03:21,630 - WARNING - Document with path 'CDE Backup_1/GrundlagenInformationen/00815_BW816_KI_E_MF_001_--_z_TBW2.ifc' not found.
+2025-03-20 15:03:21,630 - WARNING - Documents not found for paths: CDE Backup_1/GrundlagenInformationen/00815_BW816_KI_E_MF_001_--_z_TBW1.ifc or CDE Backup_1/GrundlagenInformationen/00815_BW816_KI_E_MF_001_--_z_TBW2.ifc
+2025-03-20 15:03:21,630 - WARNING - Document with path 'CDE Backup_1/GrundlagenInformationen/00815_BW816_KI_E_MF_001_--_z_TBW1.ifc' not found.
+2025-03-20 15:03:21,630 - INFO - Found document by ct:filename: http://example.com/container/InternalDocument10cf2c8b-dc1d-462a-98ce-93d22597f3be
+2025-03-20 15:03:21,630 - WARNING - Documents not found for paths: CDE Backup_1/GrundlagenInformationen/00815_BW816_KI_E_MF_001_--_z_TBW1.ifc or CDE Backup_1/02_Untersuchungsplanung/20230907_TM_Untersuchungsplanung_a.ifc
+2025-03-20 15:03:21,631 - WARNING - Document with path 'CDE Backup_1/GrundlagenInformationen/00815_BW816_KI_E_MF_001_--_z_TBW1.ifc' not found.
+2025-03-20 15:03:21,631 - WARNING - Document with path 'CDE Backup_1/02_Untersuchungsplanung/20230425_05219_02_AP2_kok_Untersuchungsplanung_Betondruckfestigkeit_klassisch.pdf' not found.
+2025-03-20 15:03:21,631 - WARNING - Documents not found for paths: CDE Backup_1/GrundlagenInformationen/00815_BW816_KI_E_MF_001_--_z_TBW1.ifc or CDE Backup_1/02_Untersuchungsplanung/20230425_05219_02_AP2_kok_Untersuchungsplanung_Betondruckfestigkeit_klassisch.pdf
+2025-03-20 15:03:21,631 - WARNING - Document with path 'CDE Backup_1/02_Untersuchungsplanung/20230425_05219_02_AP2_kok_Untersuchungsplanung_Betondruckfestigkeit_klassisch.pdf' not found.
+2025-03-20 15:03:21,631 - INFO - Found document by ct:filename: http://example.com/container/InternalDocument10cf2c8b-dc1d-462a-98ce-93d22597f3be
+2025-03-20 15:03:21,631 - WARNING - Documents not found for paths: CDE Backup_1/02_Untersuchungsplanung/20230425_05219_02_AP2_kok_Untersuchungsplanung_Betondruckfestigkeit_klassisch.pdf or CDE Backup_1/02_Untersuchungsplanung/20230907_TM_Untersuchungsplanung_a.ifc
+2025-03-20 15:03:21,631 - WARNING - Document with path 'CDE Backup_1/02_Untersuchungsplanung/20230425_05219_02_AP2_kok_Untersuchungsplanung_Betondruckfestigkeit_klassisch.pdf' not found.
+2025-03-20 15:03:21,631 - INFO - Found document by ct:filename: http://example.com/container/InternalDocumenta058650c-1ba3-4139-af1f-f99f3fbf12a8
+2025-03-20 15:03:21,631 - WARNING - Documents not found for paths: CDE Backup_1/02_Untersuchungsplanung/20230425_05219_02_AP2_kok_Untersuchungsplanung_Betondruckfestigkeit_klassisch.pdf or CDE Backup_1/01_Vertragsunterlagen/20240619_Lv_sty_ohne_Preise_modellbasierte.pdf
+2025-03-20 15:03:21,631 - WARNING - Document with path 'CDE Backup_1/02_Untersuchungsplanung/20230425_05219_02_AP2_kok_Untersuchungsplanung_Betondruckfestigkeit_klassisch.pdf' not found.
+2025-03-20 15:03:21,631 - INFO - Found document by ct:filename: http://example.com/container/InternalDocumentdd7015cd-60a1-4c5b-873b-38257357aec8
+2025-03-20 15:03:21,631 - WARNING - Documents not found for paths: CDE Backup_1/02_Untersuchungsplanung/20230425_05219_02_AP2_kok_Untersuchungsplanung_Betondruckfestigkeit_klassisch.pdf or CDE Backup_1/01_Vertragsunterlagen/20231110_openSIM_Objektkatalog.xlsx
+2025-03-20 15:03:21,632 - INFO - Found document by ct:filename: http://example.com/container/InternalDocumentb1fc17cb-876e-4c14-a06c-9d945ad22ef9
+2025-03-20 15:03:21,632 - INFO - Found document by ct:filename: http://example.com/container/InternalDocument058cbb10-b54f-49e3-88e1-dc637ea4d43a
+2025-03-20 15:03:21,632 - INFO - Found document by ct:filename: http://example.com/container/InternalDocumenta058650c-1ba3-4139-af1f-f99f3fbf12a8
+2025-03-20 15:03:21,632 - WARNING - Document with path 'CDE Backup_1/GrundlagenInformationen/00815_BW816_KI_E_MF_001_--_z_TBW1.ifc' not found.
+2025-03-20 15:03:21,632 - WARNING - Documents not found for paths: CDE Backup_1/01_Vertragsunterlagen/20240619_Lv_sty_ohne_Preise_modellbasierte.pdf or CDE Backup_1/GrundlagenInformationen/00815_BW816_KI_E_MF_001_--_z_TBW1.ifc
+2025-03-20 15:03:21,632 - INFO - Found document by ct:filename: http://example.com/container/InternalDocumentdd7015cd-60a1-4c5b-873b-38257357aec8
+2025-03-20 15:03:21,632 - WARNING - Document with path 'CDE Backup_1/GrundlagenInformationen/00815_BW816_KI_E_MF_001_--_z_TBW1.ifc' not found.
+2025-03-20 15:03:21,632 - WARNING - Documents not found for paths: CDE Backup_1/01_Vertragsunterlagen/20231110_openSIM_Objektkatalog.xlsx or CDE Backup_1/GrundlagenInformationen/00815_BW816_KI_E_MF_001_--_z_TBW1.ifc
+2025-03-20 15:03:21,632 - INFO - Found document by ct:filename: http://example.com/container/InternalDocumentb1fc17cb-876e-4c14-a06c-9d945ad22ef9
+2025-03-20 15:03:21,632 - INFO - Found document by ct:filename: http://example.com/container/InternalDocument52ad6770-5b8a-4d66-ab0c-7eba8e803a61
+2025-03-20 15:03:21,632 - INFO - Found document by ct:filename: http://example.com/container/InternalDocumentb1fc17cb-876e-4c14-a06c-9d945ad22ef9
+2025-03-20 15:03:21,633 - INFO - Found document by ct:filename: http://example.com/container/InternalDocument5bd764a2-71fb-43c5-90c6-962d733a5855
+2025-03-20 15:03:21,633 - WARNING - Document with path 'CDE Backup_1/GrundlagenInformationen/00815_BW816_KI_E_MF_001_--_z_TBW2.ifc' not found.
+2025-03-20 15:03:21,633 - INFO - Found document by ct:filename: http://example.com/container/InternalDocument10cf2c8b-dc1d-462a-98ce-93d22597f3be
+2025-03-20 15:03:21,633 - WARNING - Documents not found for paths: CDE Backup_1/GrundlagenInformationen/00815_BW816_KI_E_MF_001_--_z_TBW2.ifc or CDE Backup_1/02_Untersuchungsplanung/20230907_TM_Untersuchungsplanung_a.ifc
+2025-03-20 15:03:21,633 - INFO - Found document by ct:filename: http://example.com/container/InternalDocumenta058650c-1ba3-4139-af1f-f99f3fbf12a8
+2025-03-20 15:03:21,633 - WARNING - Document with path 'CDE Backup_1/links.csv' not found.
+2025-03-20 15:03:21,633 - WARNING - Documents not found for paths: CDE Backup_1/01_Vertragsunterlagen/20240619_Lv_sty_ohne_Preise_modellbasierte.pdf or CDE Backup_1/links.csv
+2025-03-20 15:03:21,633 - INFO - Found document by ct:filename: http://example.com/container/InternalDocument52ad6770-5b8a-4d66-ab0c-7eba8e803a61
+2025-03-20 15:03:21,633 - INFO - Found document by ct:filename: http://example.com/container/InternalDocumentb1fc17cb-876e-4c14-a06c-9d945ad22ef9
+2025-03-20 15:03:21,633 - INFO - Found document by ct:filename: http://example.com/container/InternalDocument10cf2c8b-dc1d-462a-98ce-93d22597f3be
+2025-03-20 15:03:21,633 - INFO - Found document by ct:filename: http://example.com/container/InternalDocument52ad6770-5b8a-4d66-ab0c-7eba8e803a61
+2025-03-20 15:03:21,634 - INFO - Processing IfcProject in IFC file: C:\Users\Aleks\AppData\Local\Temp\tmppk73uv15\Payload documents\CDE Backup_1\02_Untersuchungsplanung\20230907_TM_Untersuchungsplanung_a.ifc
+2025-03-20 15:03:21,681 - INFO - Found IfcProject with GlobalId: 223Pa4wvfCy8HqjQa3iQkW in CDE Backup_1/02_Untersuchungsplanung/20230907_TM_Untersuchungsplanung_a.ifc
+2025-03-20 15:03:21,684 - INFO - Link file saved: C:\Users\Aleks\AppData\Local\Temp\tmppk73uv15\Payload triples\LinksetRelations_39e72747-da4e-4e22-ba5d-933d5947b681.rdf
+2025-03-20 15:03:21,686 - INFO - Index.rdf updated with the link to the link file.
+2025-03-20 15:03:27,901 - INFO - The final ICDD container has been saved: C:/Users/Aleks/Desktop/asdgasg.icdd
+2025-03-20 15:03:40,300 - INFO - Starting the ICDD...
+2025-03-20 15:03:43,120 - INFO - ICDD extracted in: C:\Users\Aleks\AppData\Local\Temp\tmpg2hex_fm
+2025-03-20 15:03:49,991 - INFO - Temporary directory C:\Users\Aleks\AppData\Local\Temp\tmpg2hex_fm deleted.
+2025-03-20 15:03:57,450 - INFO - Starting the ICDD...
+2025-03-20 15:04:00,170 - INFO - ICDD extracted in: C:\Users\Aleks\AppData\Local\Temp\tmp61wj1wza
+2025-03-20 15:04:06,385 - INFO - Temporary directory C:\Users\Aleks\AppData\Local\Temp\tmp61wj1wza deleted.
+2025-03-20 15:04:11,439 - INFO - Starting the ICDD...
+2025-03-20 15:04:13,093 - INFO - ICDD extracted in: C:\Users\Aleks\AppData\Local\Temp\tmpxfr1nhzo
+2025-03-20 15:04:29,049 - INFO - Temporary directory C:\Users\Aleks\AppData\Local\Temp\tmpxfr1nhzo deleted.
+2025-03-20 17:15:56,591 - INFO - Index.rdf created at C:/Users/Aleks/Desktop\Zatestim\Index.rdf
+2025-03-20 17:17:54,923 - INFO - CDE Backup import started.
+2025-03-20 17:18:58,551 - INFO - ICDD extracted into C:\Users\Aleks\AppData\Local\Temp\tmpq5iwu87f
+2025-03-20 17:19:21,143 - INFO - CDE Backup extracted into C:\Users\Aleks\AppData\Local\Temp\tmplmey9373
+2025-03-20 17:19:21,145 - INFO - Flattened nested 'CDE Backup_1' folder.
+2025-03-20 17:20:08,795 - INFO - Index.rdf updated (no Linkset).
+2025-03-20 17:21:57,064 - INFO - ICDD extracted into C:\Users\Aleks\AppData\Local\Temp\tmpfic48df9
+2025-03-20 17:22:53,312 - INFO - No IFC files found in Index.rdf.
+2025-03-20 17:22:53,314 - WARNING - Document with path 'CDE Backup_1/GrundlagenInformationen/00815_BW816_KI_E_MF_001_--_z_TBW1.ifc' not found.
+2025-03-20 17:22:53,314 - WARNING - Document with path 'CDE Backup_1/GrundlagenInformationen/00815_BW816_KI_E_MF_001_--_z_TBW2.ifc' not found.
+2025-03-20 17:22:53,314 - WARNING - Documents not found for paths: CDE Backup_1/GrundlagenInformationen/00815_BW816_KI_E_MF_001_--_z_TBW1.ifc or CDE Backup_1/GrundlagenInformationen/00815_BW816_KI_E_MF_001_--_z_TBW2.ifc
+2025-03-20 17:22:53,314 - WARNING - Document with path 'CDE Backup_1/GrundlagenInformationen/00815_BW816_KI_E_MF_001_--_z_TBW1.ifc' not found.
+2025-03-20 17:22:53,314 - WARNING - Document with path 'CDE Backup_1/02_Untersuchungsplanung/20230907_TM_Untersuchungsplanung_a.ifc' not found.
+2025-03-20 17:22:53,314 - WARNING - Documents not found for paths: CDE Backup_1/GrundlagenInformationen/00815_BW816_KI_E_MF_001_--_z_TBW1.ifc or CDE Backup_1/02_Untersuchungsplanung/20230907_TM_Untersuchungsplanung_a.ifc
+2025-03-20 17:22:53,314 - WARNING - Document with path 'CDE Backup_1/GrundlagenInformationen/00815_BW816_KI_E_MF_001_--_z_TBW1.ifc' not found.
+2025-03-20 17:22:53,314 - WARNING - Document with path 'CDE Backup_1/02_Untersuchungsplanung/20230425_05219_02_AP2_kok_Untersuchungsplanung_Betondruckfestigkeit_klassisch.pdf' not found.
+2025-03-20 17:22:53,314 - WARNING - Documents not found for paths: CDE Backup_1/GrundlagenInformationen/00815_BW816_KI_E_MF_001_--_z_TBW1.ifc or CDE Backup_1/02_Untersuchungsplanung/20230425_05219_02_AP2_kok_Untersuchungsplanung_Betondruckfestigkeit_klassisch.pdf
+2025-03-20 17:22:53,314 - WARNING - Document with path 'CDE Backup_1/02_Untersuchungsplanung/20230425_05219_02_AP2_kok_Untersuchungsplanung_Betondruckfestigkeit_klassisch.pdf' not found.
+2025-03-20 17:22:53,314 - WARNING - Document with path 'CDE Backup_1/02_Untersuchungsplanung/20230907_TM_Untersuchungsplanung_a.ifc' not found.
+2025-03-20 17:22:53,314 - WARNING - Documents not found for paths: CDE Backup_1/02_Untersuchungsplanung/20230425_05219_02_AP2_kok_Untersuchungsplanung_Betondruckfestigkeit_klassisch.pdf or CDE Backup_1/02_Untersuchungsplanung/20230907_TM_Untersuchungsplanung_a.ifc
+2025-03-20 17:22:53,314 - WARNING - Document with path 'CDE Backup_1/02_Untersuchungsplanung/20230425_05219_02_AP2_kok_Untersuchungsplanung_Betondruckfestigkeit_klassisch.pdf' not found.
+2025-03-20 17:22:53,315 - WARNING - Document with path 'CDE Backup_1/01_Vertragsunterlagen/20240619_Lv_sty_ohne_Preise_modellbasierte.pdf' not found.
+2025-03-20 17:22:53,315 - WARNING - Documents not found for paths: CDE Backup_1/02_Untersuchungsplanung/20230425_05219_02_AP2_kok_Untersuchungsplanung_Betondruckfestigkeit_klassisch.pdf or CDE Backup_1/01_Vertragsunterlagen/20240619_Lv_sty_ohne_Preise_modellbasierte.pdf
+2025-03-20 17:22:53,315 - WARNING - Document with path 'CDE Backup_1/02_Untersuchungsplanung/20230425_05219_02_AP2_kok_Untersuchungsplanung_Betondruckfestigkeit_klassisch.pdf' not found.
+2025-03-20 17:22:53,315 - WARNING - Document with path 'CDE Backup_1/01_Vertragsunterlagen/20231110_openSIM_Objektkatalog.xlsx' not found.
+2025-03-20 17:22:53,315 - WARNING - Documents not found for paths: CDE Backup_1/02_Untersuchungsplanung/20230425_05219_02_AP2_kok_Untersuchungsplanung_Betondruckfestigkeit_klassisch.pdf or CDE Backup_1/01_Vertragsunterlagen/20231110_openSIM_Objektkatalog.xlsx
+2025-03-20 17:22:53,315 - WARNING - Document with path 'CDE Backup_1/01_Vertragsunterlagen/20230829_05219_02_openSIM_Leistungsbeschreibung.pdf' not found.
+2025-03-20 17:22:53,315 - WARNING - Document with path 'CDE Backup_1/01_Vertragsunterlagen/20240619_Lv_sty_ohne_Preise_modellbasierte_Untersuchungsplanung.pdf' not found.
+2025-03-20 17:22:53,315 - WARNING - Documents not found for paths: CDE Backup_1/01_Vertragsunterlagen/20230829_05219_02_openSIM_Leistungsbeschreibung.pdf or CDE Backup_1/01_Vertragsunterlagen/20240619_Lv_sty_ohne_Preise_modellbasierte_Untersuchungsplanung.pdf
+2025-03-20 17:22:53,315 - WARNING - Document with path 'CDE Backup_1/01_Vertragsunterlagen/20240619_Lv_sty_ohne_Preise_modellbasierte.pdf' not found.
+2025-03-20 17:22:53,316 - WARNING - Document with path 'CDE Backup_1/GrundlagenInformationen/00815_BW816_KI_E_MF_001_--_z_TBW1.ifc' not found.
+2025-03-20 17:22:53,316 - WARNING - Documents not found for paths: CDE Backup_1/01_Vertragsunterlagen/20240619_Lv_sty_ohne_Preise_modellbasierte.pdf or CDE Backup_1/GrundlagenInformationen/00815_BW816_KI_E_MF_001_--_z_TBW1.ifc
+2025-03-20 17:22:53,316 - WARNING - Document with path 'CDE Backup_1/01_Vertragsunterlagen/20231110_openSIM_Objektkatalog.xlsx' not found.
+2025-03-20 17:22:53,316 - WARNING - Document with path 'CDE Backup_1/GrundlagenInformationen/00815_BW816_KI_E_MF_001_--_z_TBW1.ifc' not found.
+2025-03-20 17:22:53,316 - WARNING - Documents not found for paths: CDE Backup_1/01_Vertragsunterlagen/20231110_openSIM_Objektkatalog.xlsx or CDE Backup_1/GrundlagenInformationen/00815_BW816_KI_E_MF_001_--_z_TBW1.ifc
+2025-03-20 17:22:53,316 - WARNING - Document with path 'CDE Backup_1/01_Vertragsunterlagen/20230829_05219_02_openSIM_Leistungsbeschreibung.pdf' not found.
+2025-03-20 17:22:53,316 - WARNING - Document with path 'CDE Backup_1/01_Vertragsunterlagen/20231110_05219_02_openSIM_BAP.pdf' not found.
+2025-03-20 17:22:53,316 - WARNING - Documents not found for paths: CDE Backup_1/01_Vertragsunterlagen/20230829_05219_02_openSIM_Leistungsbeschreibung.pdf or CDE Backup_1/01_Vertragsunterlagen/20231110_05219_02_openSIM_BAP.pdf
+2025-03-20 17:22:53,316 - WARNING - Document with path 'CDE Backup_1/01_Vertragsunterlagen/20230829_05219_02_openSIM_Leistungsbeschreibung.pdf' not found.
+2025-03-20 17:22:53,316 - WARNING - Document with path 'CDE Backup_1/01_Vertragsunterlagen/20231110_05219_02_openSIM_AIA.pdf' not found.
+2025-03-20 17:22:53,316 - WARNING - Documents not found for paths: CDE Backup_1/01_Vertragsunterlagen/20230829_05219_02_openSIM_Leistungsbeschreibung.pdf or CDE Backup_1/01_Vertragsunterlagen/20231110_05219_02_openSIM_AIA.pdf
+2025-03-20 17:22:53,316 - WARNING - Document with path 'CDE Backup_1/GrundlagenInformationen/00815_BW816_KI_E_MF_001_--_z_TBW2.ifc' not found.
+2025-03-20 17:22:53,316 - WARNING - Document with path 'CDE Backup_1/02_Untersuchungsplanung/20230907_TM_Untersuchungsplanung_a.ifc' not found.
+2025-03-20 17:22:53,317 - WARNING - Documents not found for paths: CDE Backup_1/GrundlagenInformationen/00815_BW816_KI_E_MF_001_--_z_TBW2.ifc or CDE Backup_1/02_Untersuchungsplanung/20230907_TM_Untersuchungsplanung_a.ifc
+2025-03-20 17:22:53,317 - WARNING - Document with path 'CDE Backup_1/01_Vertragsunterlagen/20240619_Lv_sty_ohne_Preise_modellbasierte.pdf' not found.
+2025-03-20 17:22:53,317 - WARNING - Document with path 'CDE Backup_1/links.csv' not found.
+2025-03-20 17:22:53,317 - WARNING - Documents not found for paths: CDE Backup_1/01_Vertragsunterlagen/20240619_Lv_sty_ohne_Preise_modellbasierte.pdf or CDE Backup_1/links.csv
+2025-03-20 17:22:53,317 - WARNING - Document with path 'CDE Backup_1/01_Vertragsunterlagen/20231110_05219_02_openSIM_BAP.pdf' not found.
+2025-03-20 17:22:53,317 - WARNING - Document with path 'CDE Backup_1/01_Vertragsunterlagen/20230829_05219_02_openSIM_Leistungsbeschreibung.pdf' not found.
+2025-03-20 17:22:53,317 - WARNING - Documents not found for paths: CDE Backup_1/01_Vertragsunterlagen/20231110_05219_02_openSIM_BAP.pdf or CDE Backup_1/01_Vertragsunterlagen/20230829_05219_02_openSIM_Leistungsbeschreibung.pdf
+2025-03-20 17:22:53,317 - WARNING - Document with path 'CDE Backup_1/02_Untersuchungsplanung/20230907_TM_Untersuchungsplanung_a.ifc' not found.
+2025-03-20 17:22:53,317 - WARNING - Document with path 'CDE Backup_1/01_Vertragsunterlagen/20231110_05219_02_openSIM_BAP.pdf' not found.
+2025-03-20 17:22:53,317 - WARNING - Documents not found for paths: CDE Backup_1/02_Untersuchungsplanung/20230907_TM_Untersuchungsplanung_a.ifc or CDE Backup_1/01_Vertragsunterlagen/20231110_05219_02_openSIM_BAP.pdf
+2025-03-20 17:22:53,318 - INFO - Link file saved: C:\Users\Aleks\AppData\Local\Temp\tmpfic48df9\Payload triples\LinksetRelations_5b430ed4-f5c3-4b06-ad5f-f404c0c11df5.rdf
+2025-03-20 17:22:53,319 - INFO - Index.rdf updated with the link to the link file.
+2025-03-20 17:23:27,942 - INFO - The final ICDD container has been saved: C:/Users/Aleks/Desktop/GAGAGAGAGA.icdd
+2025-03-20 17:23:29,855 - INFO - Starting the ICDD...
+2025-03-20 17:23:31,715 - INFO - ICDD extracted in: C:\Users\Aleks\AppData\Local\Temp\tmpw438aulg
+2025-03-20 17:23:37,271 - INFO - Temporary directory C:\Users\Aleks\AppData\Local\Temp\tmpw438aulg deleted.
+2025-03-20 23:20:07,002 - INFO - Index.rdf created at C:/Users/Aleks/Desktop\Test_1\Index.rdf
+2025-03-20 23:27:42,788 - INFO - Index.rdf created at C:/Users/Aleks/Desktop\Test_2\Index.rdf
+2025-03-20 23:27:45,802 - INFO - Import CDE Backup started.
+2025-03-20 23:27:51,451 - INFO - CDE Backup extracted into C:\Users\Aleks\AppData\Local\Temp\tmph3ngzgtx
+2025-03-20 23:27:51,453 - INFO - Flattened nested 'CDE Backup_1' folder.
+2025-03-20 23:28:02,826 - INFO - Index.rdf updated after CDE Backup import (no linkset).
+2025-03-20 23:32:47,960 - INFO - Index.rdf created at C:/Users/Aleks/Desktop\Test_3\Index.rdf
+2025-03-20 23:32:49,021 - INFO - Import CDE Backup started.
+2025-03-20 23:32:52,257 - INFO - CDE Backup extracted into C:\Users\Aleks\AppData\Local\Temp\tmpxiorctrc
+2025-03-20 23:32:52,259 - INFO - Flattened nested 'CDE Backup_1' folder.
+2025-03-20 23:33:01,150 - INFO - Index.rdf updated after CDE Backup import (no linkset).
+2025-03-20 23:33:01,901 - INFO - Importing CSV/IFC links...
+2025-03-20 23:33:04,702 - INFO - IFC documents found: 1
+2025-03-20 23:33:04,770 - INFO - No IfcWall found, trying IfcProduct.
+2025-03-20 23:33:04,773 - WARNING - Document with path 'CDE Backup_1/GrundlagenInformationen/00815_BW816_KI_E_MF_001_--_z_TBW1.ifc' not found.
+2025-03-20 23:33:04,773 - WARNING - Document with path 'CDE Backup_1/GrundlagenInformationen/00815_BW816_KI_E_MF_001_--_z_TBW2.ifc' not found.
+2025-03-20 23:33:04,774 - WARNING - Documents not found for: CDE Backup_1/GrundlagenInformationen/00815_BW816_KI_E_MF_001_--_z_TBW1.ifc or CDE Backup_1/GrundlagenInformationen/00815_BW816_KI_E_MF_001_--_z_TBW2.ifc
+2025-03-20 23:33:04,774 - WARNING - Document with path 'CDE Backup_1/GrundlagenInformationen/00815_BW816_KI_E_MF_001_--_z_TBW1.ifc' not found.
+2025-03-20 23:33:04,774 - INFO - Found document by ct:filename: http://example.com/container/InternalDocumente0d62c24-fa43-4ee1-854a-79be6e292852
+2025-03-20 23:33:04,774 - WARNING - Documents not found for: CDE Backup_1/GrundlagenInformationen/00815_BW816_KI_E_MF_001_--_z_TBW1.ifc or CDE Backup_1/02_Untersuchungsplanung/20230907_TM_Untersuchungsplanung_a.ifc
+2025-03-20 23:33:04,774 - WARNING - Document with path 'CDE Backup_1/GrundlagenInformationen/00815_BW816_KI_E_MF_001_--_z_TBW1.ifc' not found.
+2025-03-20 23:33:04,774 - WARNING - Document with path 'CDE Backup_1/02_Untersuchungsplanung/20230425_05219_02_AP2_kok_Untersuchungsplanung_Betondruckfestigkeit_klassisch.pdf' not found.
+2025-03-20 23:33:04,774 - WARNING - Documents not found for: CDE Backup_1/GrundlagenInformationen/00815_BW816_KI_E_MF_001_--_z_TBW1.ifc or CDE Backup_1/02_Untersuchungsplanung/20230425_05219_02_AP2_kok_Untersuchungsplanung_Betondruckfestigkeit_klassisch.pdf
+2025-03-20 23:33:04,774 - WARNING - Document with path 'CDE Backup_1/02_Untersuchungsplanung/20230425_05219_02_AP2_kok_Untersuchungsplanung_Betondruckfestigkeit_klassisch.pdf' not found.
+2025-03-20 23:33:04,775 - INFO - Found document by ct:filename: http://example.com/container/InternalDocumente0d62c24-fa43-4ee1-854a-79be6e292852
+2025-03-20 23:33:04,775 - WARNING - Documents not found for: CDE Backup_1/02_Untersuchungsplanung/20230425_05219_02_AP2_kok_Untersuchungsplanung_Betondruckfestigkeit_klassisch.pdf or CDE Backup_1/02_Untersuchungsplanung/20230907_TM_Untersuchungsplanung_a.ifc
+2025-03-20 23:33:04,775 - WARNING - Document with path 'CDE Backup_1/02_Untersuchungsplanung/20230425_05219_02_AP2_kok_Untersuchungsplanung_Betondruckfestigkeit_klassisch.pdf' not found.
+2025-03-20 23:33:04,775 - INFO - Found document by ct:filename: http://example.com/container/InternalDocument936095f5-2b92-4126-a6a0-d786f32e91ed
+2025-03-20 23:33:04,775 - WARNING - Documents not found for: CDE Backup_1/02_Untersuchungsplanung/20230425_05219_02_AP2_kok_Untersuchungsplanung_Betondruckfestigkeit_klassisch.pdf or CDE Backup_1/01_Vertragsunterlagen/20240619_Lv_sty_ohne_Preise_modellbasierte.pdf
+2025-03-20 23:33:04,775 - WARNING - Document with path 'CDE Backup_1/02_Untersuchungsplanung/20230425_05219_02_AP2_kok_Untersuchungsplanung_Betondruckfestigkeit_klassisch.pdf' not found.
+2025-03-20 23:33:04,775 - INFO - Found document by ct:filename: http://example.com/container/InternalDocument3d31edce-93a9-4697-8a01-b131526a4a3b
+2025-03-20 23:33:04,775 - WARNING - Documents not found for: CDE Backup_1/02_Untersuchungsplanung/20230425_05219_02_AP2_kok_Untersuchungsplanung_Betondruckfestigkeit_klassisch.pdf or CDE Backup_1/01_Vertragsunterlagen/20231110_openSIM_Objektkatalog.xlsx
+2025-03-20 23:33:04,775 - INFO - Found document by ct:filename: http://example.com/container/InternalDocument80319ddf-53bd-4646-9523-da8d2109943f
+2025-03-20 23:33:04,776 - INFO - Found document by ct:filename: http://example.com/container/InternalDocumentfd6c9335-d88b-41b6-bc64-fff96c58bf70
+2025-03-20 23:33:04,776 - INFO - Found document by ct:filename: http://example.com/container/InternalDocument936095f5-2b92-4126-a6a0-d786f32e91ed
+2025-03-20 23:33:04,776 - WARNING - Document with path 'CDE Backup_1/GrundlagenInformationen/00815_BW816_KI_E_MF_001_--_z_TBW1.ifc' not found.
+2025-03-20 23:33:04,776 - WARNING - Documents not found for: CDE Backup_1/01_Vertragsunterlagen/20240619_Lv_sty_ohne_Preise_modellbasierte.pdf or CDE Backup_1/GrundlagenInformationen/00815_BW816_KI_E_MF_001_--_z_TBW1.ifc
+2025-03-20 23:33:04,776 - INFO - Found document by ct:filename: http://example.com/container/InternalDocument3d31edce-93a9-4697-8a01-b131526a4a3b
+2025-03-20 23:33:04,776 - WARNING - Document with path 'CDE Backup_1/GrundlagenInformationen/00815_BW816_KI_E_MF_001_--_z_TBW1.ifc' not found.
+2025-03-20 23:33:04,776 - WARNING - Documents not found for: CDE Backup_1/01_Vertragsunterlagen/20231110_openSIM_Objektkatalog.xlsx or CDE Backup_1/GrundlagenInformationen/00815_BW816_KI_E_MF_001_--_z_TBW1.ifc
+2025-03-20 23:33:04,776 - INFO - Found document by ct:filename: http://example.com/container/InternalDocument80319ddf-53bd-4646-9523-da8d2109943f
+2025-03-20 23:33:04,776 - INFO - Found document by ct:filename: http://example.com/container/InternalDocument165c0814-9732-4000-a6ec-77e553eac905
+2025-03-20 23:33:04,776 - INFO - Found document by ct:filename: http://example.com/container/InternalDocument80319ddf-53bd-4646-9523-da8d2109943f
+2025-03-20 23:33:04,777 - INFO - Found document by ct:filename: http://example.com/container/InternalDocument1d7ec22b-249b-42cf-94d2-ac6801c52843
+2025-03-20 23:33:04,777 - WARNING - Document with path 'CDE Backup_1/GrundlagenInformationen/00815_BW816_KI_E_MF_001_--_z_TBW2.ifc' not found.
+2025-03-20 23:33:04,777 - INFO - Found document by ct:filename: http://example.com/container/InternalDocumente0d62c24-fa43-4ee1-854a-79be6e292852
+2025-03-20 23:33:04,777 - WARNING - Documents not found for: CDE Backup_1/GrundlagenInformationen/00815_BW816_KI_E_MF_001_--_z_TBW2.ifc or CDE Backup_1/02_Untersuchungsplanung/20230907_TM_Untersuchungsplanung_a.ifc
+2025-03-20 23:33:04,777 - INFO - Found document by ct:filename: http://example.com/container/InternalDocument936095f5-2b92-4126-a6a0-d786f32e91ed
+2025-03-20 23:33:04,777 - WARNING - Document with path 'CDE Backup_1/links.csv' not found.
+2025-03-20 23:33:04,777 - WARNING - Documents not found for: CDE Backup_1/01_Vertragsunterlagen/20240619_Lv_sty_ohne_Preise_modellbasierte.pdf or CDE Backup_1/links.csv
+2025-03-20 23:33:04,777 - INFO - Found document by ct:filename: http://example.com/container/InternalDocument165c0814-9732-4000-a6ec-77e553eac905
+2025-03-20 23:33:04,777 - INFO - Found document by ct:filename: http://example.com/container/InternalDocument80319ddf-53bd-4646-9523-da8d2109943f
+2025-03-20 23:33:04,778 - INFO - Found document by ct:filename: http://example.com/container/InternalDocumente0d62c24-fa43-4ee1-854a-79be6e292852
+2025-03-20 23:33:04,778 - INFO - Found document by ct:filename: http://example.com/container/InternalDocument165c0814-9732-4000-a6ec-77e553eac905
+2025-03-20 23:33:04,779 - INFO - Link file saved: C:/Users/Aleks/Desktop\Test_3\Payload triples\LinksetRelations_ce5d9a67-4592-40bc-bfed-2e4d47da1f9f.rdf
+2025-03-20 23:33:04,782 - INFO - Index.rdf updated with CSV/IFC links.
+2025-03-20 23:34:23,561 - INFO - The final ICDD container has been saved: C:/Users/Aleks/Desktop/Test__3.icdd
+2025-03-20 23:35:36,675 - INFO - Starting the ICDD...
+2025-03-20 23:35:39,281 - INFO - ICDD extracted in: C:\Users\Aleks\AppData\Local\Temp\tmp5p_4n83i
+2025-03-20 23:36:36,892 - INFO - Temporary directory C:\Users\Aleks\AppData\Local\Temp\tmp5p_4n83i deleted.
+2025-03-20 23:43:21,720 - INFO - Starting ICDD creation...
+2025-03-20 23:43:32,738 - INFO - Index.rdf created in C:/Users/Aleks/Desktop\TEEEEEST_1\Index.rdf
+2025-03-20 23:43:33,818 - INFO - ICDD создан: C:/Users/Aleks/Desktop\TEEEEEST_1.icdd
+2025-03-20 23:43:36,056 - INFO - Starting the ICDD...
+2025-03-20 23:43:38,250 - INFO - ICDD extracted in: C:\Users\Aleks\AppData\Local\Temp\tmpqs8tawmz
+2025-03-20 23:43:45,427 - INFO - Temporary directory C:\Users\Aleks\AppData\Local\Temp\tmpqs8tawmz deleted.
+2025-03-20 23:43:46,309 - INFO - Import CDE Backup started.
+2025-03-20 23:43:51,846 - INFO - ICDD extracted into C:\Users\Aleks\AppData\Local\Temp\tmp4bpil5ax
+2025-03-20 23:43:56,362 - INFO - CDE Backup extracted into C:\Users\Aleks\AppData\Local\Temp\tmpjczhqzoa
+2025-03-20 23:43:56,365 - INFO - Flattened nested 'CDE Backup_1' folder.
+2025-03-20 23:44:11,466 - INFO - Index.rdf updated after CDE Backup import (no linkset).
+2025-03-20 23:44:22,056 - INFO - Updated ICDD saved: C:/Users/Aleks/Desktop/TEEEEEST_12.icdd
+2025-03-20 23:44:26,534 - INFO - Importing CSV/IFC links...
+2025-03-20 23:44:30,763 - INFO - ICDD extracted into C:\Users\Aleks\AppData\Local\Temp\tmp25uhopeb
+2025-03-20 23:44:33,477 - INFO - Starting the ICDD...
+2025-03-20 23:44:37,675 - INFO - ICDD extracted in: C:\Users\Aleks\AppData\Local\Temp\tmpydbm51u9
+2025-03-20 23:44:51,081 - INFO - Temporary directory C:\Users\Aleks\AppData\Local\Temp\tmpydbm51u9 deleted.
+2025-03-20 23:44:52,009 - INFO - Importing CSV/IFC links...
+2025-03-20 23:44:54,495 - INFO - ICDD extracted into C:\Users\Aleks\AppData\Local\Temp\tmpayhzf8dt
+2025-03-20 23:44:57,768 - INFO - IFC documents found: 1
+2025-03-20 23:44:57,827 - INFO - No IfcWall found, trying IfcProduct.
+2025-03-20 23:44:57,830 - WARNING - Document with path 'CDE Backup_1/GrundlagenInformationen/00815_BW816_KI_E_MF_001_--_z_TBW1.ifc' not found.
+2025-03-20 23:44:57,830 - WARNING - Document with path 'CDE Backup_1/GrundlagenInformationen/00815_BW816_KI_E_MF_001_--_z_TBW2.ifc' not found.
+2025-03-20 23:44:57,830 - WARNING - Documents not found for: CDE Backup_1/GrundlagenInformationen/00815_BW816_KI_E_MF_001_--_z_TBW1.ifc or CDE Backup_1/GrundlagenInformationen/00815_BW816_KI_E_MF_001_--_z_TBW2.ifc
+2025-03-20 23:44:57,830 - WARNING - Document with path 'CDE Backup_1/GrundlagenInformationen/00815_BW816_KI_E_MF_001_--_z_TBW1.ifc' not found.
+2025-03-20 23:44:57,830 - INFO - Found document by ct:filename: http://example.com/container/InternalDocument86d5e74d-d43d-487f-b992-4647eaba166e
+2025-03-20 23:44:57,830 - WARNING - Documents not found for: CDE Backup_1/GrundlagenInformationen/00815_BW816_KI_E_MF_001_--_z_TBW1.ifc or CDE Backup_1/02_Untersuchungsplanung/20230907_TM_Untersuchungsplanung_a.ifc
+2025-03-20 23:44:57,830 - WARNING - Document with path 'CDE Backup_1/GrundlagenInformationen/00815_BW816_KI_E_MF_001_--_z_TBW1.ifc' not found.
+2025-03-20 23:44:57,830 - WARNING - Document with path 'CDE Backup_1/02_Untersuchungsplanung/20230425_05219_02_AP2_kok_Untersuchungsplanung_Betondruckfestigkeit_klassisch.pdf' not found.
+2025-03-20 23:44:57,831 - WARNING - Documents not found for: CDE Backup_1/GrundlagenInformationen/00815_BW816_KI_E_MF_001_--_z_TBW1.ifc or CDE Backup_1/02_Untersuchungsplanung/20230425_05219_02_AP2_kok_Untersuchungsplanung_Betondruckfestigkeit_klassisch.pdf
+2025-03-20 23:44:57,831 - WARNING - Document with path 'CDE Backup_1/02_Untersuchungsplanung/20230425_05219_02_AP2_kok_Untersuchungsplanung_Betondruckfestigkeit_klassisch.pdf' not found.
+2025-03-20 23:44:57,831 - INFO - Found document by ct:filename: http://example.com/container/InternalDocument86d5e74d-d43d-487f-b992-4647eaba166e
+2025-03-20 23:44:57,831 - WARNING - Documents not found for: CDE Backup_1/02_Untersuchungsplanung/20230425_05219_02_AP2_kok_Untersuchungsplanung_Betondruckfestigkeit_klassisch.pdf or CDE Backup_1/02_Untersuchungsplanung/20230907_TM_Untersuchungsplanung_a.ifc
+2025-03-20 23:44:57,831 - WARNING - Document with path 'CDE Backup_1/02_Untersuchungsplanung/20230425_05219_02_AP2_kok_Untersuchungsplanung_Betondruckfestigkeit_klassisch.pdf' not found.
+2025-03-20 23:44:57,831 - INFO - Found document by ct:filename: http://example.com/container/InternalDocument1e23ac50-407c-49a8-86a6-bfd1a045b225
+2025-03-20 23:44:57,831 - WARNING - Documents not found for: CDE Backup_1/02_Untersuchungsplanung/20230425_05219_02_AP2_kok_Untersuchungsplanung_Betondruckfestigkeit_klassisch.pdf or CDE Backup_1/01_Vertragsunterlagen/20240619_Lv_sty_ohne_Preise_modellbasierte.pdf
+2025-03-20 23:44:57,831 - WARNING - Document with path 'CDE Backup_1/02_Untersuchungsplanung/20230425_05219_02_AP2_kok_Untersuchungsplanung_Betondruckfestigkeit_klassisch.pdf' not found.
+2025-03-20 23:44:57,831 - INFO - Found document by ct:filename: http://example.com/container/InternalDocumentda14faf5-1a88-4a27-89bc-737a5af5cacb
+2025-03-20 23:44:57,831 - WARNING - Documents not found for: CDE Backup_1/02_Untersuchungsplanung/20230425_05219_02_AP2_kok_Untersuchungsplanung_Betondruckfestigkeit_klassisch.pdf or CDE Backup_1/01_Vertragsunterlagen/20231110_openSIM_Objektkatalog.xlsx
+2025-03-20 23:44:57,831 - INFO - Found document by ct:filename: http://example.com/container/InternalDocument306d70c1-da55-436a-894d-223516f77a61
+2025-03-20 23:44:57,831 - INFO - Found document by ct:filename: http://example.com/container/InternalDocument95103cdb-7c4a-4394-a706-751063db622c
+2025-03-20 23:44:57,832 - INFO - Found document by ct:filename: http://example.com/container/InternalDocument1e23ac50-407c-49a8-86a6-bfd1a045b225
+2025-03-20 23:44:57,832 - WARNING - Document with path 'CDE Backup_1/GrundlagenInformationen/00815_BW816_KI_E_MF_001_--_z_TBW1.ifc' not found.
+2025-03-20 23:44:57,832 - WARNING - Documents not found for: CDE Backup_1/01_Vertragsunterlagen/20240619_Lv_sty_ohne_Preise_modellbasierte.pdf or CDE Backup_1/GrundlagenInformationen/00815_BW816_KI_E_MF_001_--_z_TBW1.ifc
+2025-03-20 23:44:57,836 - INFO - Found document by ct:filename: http://example.com/container/InternalDocumentda14faf5-1a88-4a27-89bc-737a5af5cacb
+2025-03-20 23:44:57,836 - WARNING - Document with path 'CDE Backup_1/GrundlagenInformationen/00815_BW816_KI_E_MF_001_--_z_TBW1.ifc' not found.
+2025-03-20 23:44:57,836 - WARNING - Documents not found for: CDE Backup_1/01_Vertragsunterlagen/20231110_openSIM_Objektkatalog.xlsx or CDE Backup_1/GrundlagenInformationen/00815_BW816_KI_E_MF_001_--_z_TBW1.ifc
+2025-03-20 23:44:57,836 - INFO - Found document by ct:filename: http://example.com/container/InternalDocument306d70c1-da55-436a-894d-223516f77a61
+2025-03-20 23:44:57,836 - INFO - Found document by ct:filename: http://example.com/container/InternalDocumentba87c34d-5a6f-4499-bee8-ba468487c30b
+2025-03-20 23:44:57,836 - INFO - Found document by ct:filename: http://example.com/container/InternalDocument306d70c1-da55-436a-894d-223516f77a61
+2025-03-20 23:44:57,836 - INFO - Found document by ct:filename: http://example.com/container/InternalDocumentcb4fdcb0-f639-4106-9e3b-d46bb78ab751
+2025-03-20 23:44:57,837 - WARNING - Document with path 'CDE Backup_1/GrundlagenInformationen/00815_BW816_KI_E_MF_001_--_z_TBW2.ifc' not found.
+2025-03-20 23:44:57,837 - INFO - Found document by ct:filename: http://example.com/container/InternalDocument86d5e74d-d43d-487f-b992-4647eaba166e
+2025-03-20 23:44:57,837 - WARNING - Documents not found for: CDE Backup_1/GrundlagenInformationen/00815_BW816_KI_E_MF_001_--_z_TBW2.ifc or CDE Backup_1/02_Untersuchungsplanung/20230907_TM_Untersuchungsplanung_a.ifc
+2025-03-20 23:44:57,837 - INFO - Found document by ct:filename: http://example.com/container/InternalDocument1e23ac50-407c-49a8-86a6-bfd1a045b225
+2025-03-20 23:44:57,837 - WARNING - Document with path 'CDE Backup_1/links.csv' not found.
+2025-03-20 23:44:57,837 - WARNING - Documents not found for: CDE Backup_1/01_Vertragsunterlagen/20240619_Lv_sty_ohne_Preise_modellbasierte.pdf or CDE Backup_1/links.csv
+2025-03-20 23:44:57,837 - INFO - Found document by ct:filename: http://example.com/container/InternalDocumentba87c34d-5a6f-4499-bee8-ba468487c30b
+2025-03-20 23:44:57,837 - INFO - Found document by ct:filename: http://example.com/container/InternalDocument306d70c1-da55-436a-894d-223516f77a61
+2025-03-20 23:44:57,838 - INFO - Found document by ct:filename: http://example.com/container/InternalDocument86d5e74d-d43d-487f-b992-4647eaba166e
+2025-03-20 23:44:57,838 - INFO - Found document by ct:filename: http://example.com/container/InternalDocumentba87c34d-5a6f-4499-bee8-ba468487c30b
+2025-03-20 23:44:57,839 - INFO - Link file saved: C:\Users\Aleks\AppData\Local\Temp\tmpayhzf8dt\Payload triples\LinksetRelations_795f9876-4007-4c46-9aec-e54231ee843c.rdf
+2025-03-20 23:44:57,843 - INFO - Index.rdf updated with CSV/IFC links.
+2025-03-20 23:45:07,932 - INFO - Updated ICDD saved: C:/Users/Aleks/Desktop/TEEEEEST_123.icdd
+2025-03-20 23:45:08,555 - INFO - Starting the ICDD...
+2025-03-20 23:45:11,014 - INFO - ICDD extracted in: C:\Users\Aleks\AppData\Local\Temp\tmpn4wo5aa9
+2025-03-20 23:45:22,687 - INFO - Temporary directory C:\Users\Aleks\AppData\Local\Temp\tmpn4wo5aa9 deleted.
+2025-03-20 23:53:08,944 - INFO - Importing CSV/IFC links...
+2025-03-20 23:53:13,001 - INFO - ICDD extracted into C:\Users\Aleks\AppData\Local\Temp\tmpvdzfk_ux
+2025-03-20 23:53:21,009 - INFO - IFC documents found: 1
+2025-03-20 23:53:21,009 - INFO - IFC full path: C:\Users\Aleks\AppData\Local\Temp\tmpvdzfk_ux\Payload documents\CDE Backup_1\02_Untersuchungsplanung\20230907_TM_Untersuchungsplanung_a.ifc
+2025-03-20 23:53:21,059 - INFO - No IfcWall found, trying IfcProduct.
+2025-03-20 23:53:21,061 - WARNING - Document with path 'CDE Backup_1/GrundlagenInformationen/00815_BW816_KI_E_MF_001_--_z_TBW1.ifc' not found.
+2025-03-20 23:53:21,061 - WARNING - Document with path 'CDE Backup_1/GrundlagenInformationen/00815_BW816_KI_E_MF_001_--_z_TBW2.ifc' not found.
+2025-03-20 23:53:21,061 - WARNING - Documents not found for: CDE Backup_1/GrundlagenInformationen/00815_BW816_KI_E_MF_001_--_z_TBW1.ifc or CDE Backup_1/GrundlagenInformationen/00815_BW816_KI_E_MF_001_--_z_TBW2.ifc
+2025-03-20 23:53:21,062 - WARNING - Document with path 'CDE Backup_1/GrundlagenInformationen/00815_BW816_KI_E_MF_001_--_z_TBW1.ifc' not found.
+2025-03-20 23:53:21,062 - INFO - Found document by ct:filename: http://example.com/container/InternalDocument86d5e74d-d43d-487f-b992-4647eaba166e
+2025-03-20 23:53:21,062 - WARNING - Documents not found for: CDE Backup_1/GrundlagenInformationen/00815_BW816_KI_E_MF_001_--_z_TBW1.ifc or CDE Backup_1/02_Untersuchungsplanung/20230907_TM_Untersuchungsplanung_a.ifc
+2025-03-20 23:53:21,062 - WARNING - Document with path 'CDE Backup_1/GrundlagenInformationen/00815_BW816_KI_E_MF_001_--_z_TBW1.ifc' not found.
+2025-03-20 23:53:21,062 - WARNING - Document with path 'CDE Backup_1/02_Untersuchungsplanung/20230425_05219_02_AP2_kok_Untersuchungsplanung_Betondruckfestigkeit_klassisch.pdf' not found.
+2025-03-20 23:53:21,062 - WARNING - Documents not found for: CDE Backup_1/GrundlagenInformationen/00815_BW816_KI_E_MF_001_--_z_TBW1.ifc or CDE Backup_1/02_Untersuchungsplanung/20230425_05219_02_AP2_kok_Untersuchungsplanung_Betondruckfestigkeit_klassisch.pdf
+2025-03-20 23:53:21,062 - WARNING - Document with path 'CDE Backup_1/02_Untersuchungsplanung/20230425_05219_02_AP2_kok_Untersuchungsplanung_Betondruckfestigkeit_klassisch.pdf' not found.
+2025-03-20 23:53:21,062 - INFO - Found document by ct:filename: http://example.com/container/InternalDocument86d5e74d-d43d-487f-b992-4647eaba166e
+2025-03-20 23:53:21,062 - WARNING - Documents not found for: CDE Backup_1/02_Untersuchungsplanung/20230425_05219_02_AP2_kok_Untersuchungsplanung_Betondruckfestigkeit_klassisch.pdf or CDE Backup_1/02_Untersuchungsplanung/20230907_TM_Untersuchungsplanung_a.ifc
+2025-03-20 23:53:21,062 - WARNING - Document with path 'CDE Backup_1/02_Untersuchungsplanung/20230425_05219_02_AP2_kok_Untersuchungsplanung_Betondruckfestigkeit_klassisch.pdf' not found.
+2025-03-20 23:53:21,062 - INFO - Found document by ct:filename: http://example.com/container/InternalDocument1e23ac50-407c-49a8-86a6-bfd1a045b225
+2025-03-20 23:53:21,063 - WARNING - Documents not found for: CDE Backup_1/02_Untersuchungsplanung/20230425_05219_02_AP2_kok_Untersuchungsplanung_Betondruckfestigkeit_klassisch.pdf or CDE Backup_1/01_Vertragsunterlagen/20240619_Lv_sty_ohne_Preise_modellbasierte.pdf
+2025-03-20 23:53:21,063 - WARNING - Document with path 'CDE Backup_1/02_Untersuchungsplanung/20230425_05219_02_AP2_kok_Untersuchungsplanung_Betondruckfestigkeit_klassisch.pdf' not found.
+2025-03-20 23:53:21,063 - INFO - Found document by ct:filename: http://example.com/container/InternalDocumentda14faf5-1a88-4a27-89bc-737a5af5cacb
+2025-03-20 23:53:21,063 - WARNING - Documents not found for: CDE Backup_1/02_Untersuchungsplanung/20230425_05219_02_AP2_kok_Untersuchungsplanung_Betondruckfestigkeit_klassisch.pdf or CDE Backup_1/01_Vertragsunterlagen/20231110_openSIM_Objektkatalog.xlsx
+2025-03-20 23:53:21,063 - INFO - Found document by ct:filename: http://example.com/container/InternalDocument306d70c1-da55-436a-894d-223516f77a61
+2025-03-20 23:53:21,063 - INFO - Found document by ct:filename: http://example.com/container/InternalDocument95103cdb-7c4a-4394-a706-751063db622c
+2025-03-20 23:53:21,063 - INFO - Found document by ct:filename: http://example.com/container/InternalDocument1e23ac50-407c-49a8-86a6-bfd1a045b225
+2025-03-20 23:53:21,063 - WARNING - Document with path 'CDE Backup_1/GrundlagenInformationen/00815_BW816_KI_E_MF_001_--_z_TBW1.ifc' not found.
+2025-03-20 23:53:21,063 - WARNING - Documents not found for: CDE Backup_1/01_Vertragsunterlagen/20240619_Lv_sty_ohne_Preise_modellbasierte.pdf or CDE Backup_1/GrundlagenInformationen/00815_BW816_KI_E_MF_001_--_z_TBW1.ifc
+2025-03-20 23:53:21,063 - INFO - Found document by ct:filename: http://example.com/container/InternalDocumentda14faf5-1a88-4a27-89bc-737a5af5cacb
+2025-03-20 23:53:21,063 - WARNING - Document with path 'CDE Backup_1/GrundlagenInformationen/00815_BW816_KI_E_MF_001_--_z_TBW1.ifc' not found.
+2025-03-20 23:53:21,063 - WARNING - Documents not found for: CDE Backup_1/01_Vertragsunterlagen/20231110_openSIM_Objektkatalog.xlsx or CDE Backup_1/GrundlagenInformationen/00815_BW816_KI_E_MF_001_--_z_TBW1.ifc
+2025-03-20 23:53:21,064 - INFO - Found document by ct:filename: http://example.com/container/InternalDocument306d70c1-da55-436a-894d-223516f77a61
+2025-03-20 23:53:21,064 - INFO - Found document by ct:filename: http://example.com/container/InternalDocumentba87c34d-5a6f-4499-bee8-ba468487c30b
+2025-03-20 23:53:21,064 - INFO - Found document by ct:filename: http://example.com/container/InternalDocument306d70c1-da55-436a-894d-223516f77a61
+2025-03-20 23:53:21,064 - INFO - Found document by ct:filename: http://example.com/container/InternalDocumentcb4fdcb0-f639-4106-9e3b-d46bb78ab751
+2025-03-20 23:53:21,064 - WARNING - Document with path 'CDE Backup_1/GrundlagenInformationen/00815_BW816_KI_E_MF_001_--_z_TBW2.ifc' not found.
+2025-03-20 23:53:21,064 - INFO - Found document by ct:filename: http://example.com/container/InternalDocument86d5e74d-d43d-487f-b992-4647eaba166e
+2025-03-20 23:53:21,064 - WARNING - Documents not found for: CDE Backup_1/GrundlagenInformationen/00815_BW816_KI_E_MF_001_--_z_TBW2.ifc or CDE Backup_1/02_Untersuchungsplanung/20230907_TM_Untersuchungsplanung_a.ifc
+2025-03-20 23:53:21,064 - INFO - Found document by ct:filename: http://example.com/container/InternalDocument1e23ac50-407c-49a8-86a6-bfd1a045b225
+2025-03-20 23:53:21,064 - WARNING - Document with path 'CDE Backup_1/links.csv' not found.
+2025-03-20 23:53:21,064 - WARNING - Documents not found for: CDE Backup_1/01_Vertragsunterlagen/20240619_Lv_sty_ohne_Preise_modellbasierte.pdf or CDE Backup_1/links.csv
+2025-03-20 23:53:21,064 - INFO - Found document by ct:filename: http://example.com/container/InternalDocumentba87c34d-5a6f-4499-bee8-ba468487c30b
+2025-03-20 23:53:21,064 - INFO - Found document by ct:filename: http://example.com/container/InternalDocument306d70c1-da55-436a-894d-223516f77a61
+2025-03-20 23:53:21,065 - INFO - Found document by ct:filename: http://example.com/container/InternalDocument86d5e74d-d43d-487f-b992-4647eaba166e
+2025-03-20 23:53:21,065 - INFO - Found document by ct:filename: http://example.com/container/InternalDocumentba87c34d-5a6f-4499-bee8-ba468487c30b
+2025-03-20 23:53:21,065 - INFO - Processing IfcProject in IFC file: C:\Users\Aleks\AppData\Local\Temp\tmpvdzfk_ux\Payload documents\CDE Backup_1\02_Untersuchungsplanung\20230907_TM_Untersuchungsplanung_a.ifc
+2025-03-20 23:53:21,107 - INFO - Found IfcProject with GlobalId: 223Pa4wvfCy8HqjQa3iQkW in CDE Backup_1/02_Untersuchungsplanung/20230907_TM_Untersuchungsplanung_a.ifc
+2025-03-20 23:53:21,113 - INFO - Link file saved: C:\Users\Aleks\AppData\Local\Temp\tmpvdzfk_ux\Payload triples\LinksetRelations_c8a3080a-8c32-45af-bb62-451794a3b97d.rdf
+2025-03-20 23:53:21,115 - INFO - Index.rdf updated with CSV/IFC links (including IfcProject, IfcPart).
+2025-03-20 23:53:31,026 - INFO - Updated ICDD saved: C:/Users/Aleks/Desktop/TEEEEEST_1234.icdd
+2025-03-20 23:53:32,592 - INFO - Starting the ICDD...
+2025-03-20 23:53:36,027 - INFO - ICDD extracted in: C:\Users\Aleks\AppData\Local\Temp\tmpjimwku2r
+2025-03-20 23:53:53,053 - INFO - Temporary directory C:\Users\Aleks\AppData\Local\Temp\tmpjimwku2r deleted.
+2025-03-21 10:06:10,765 - INFO - Starting ICDD creation...
+2025-03-21 10:06:58,311 - INFO - Index.rdf created in C:/Users/Aleks/Desktop\Final_Test\Index.rdf
+2025-03-21 10:06:59,733 - INFO - ICDD создан: C:/Users/Aleks/Desktop\Final_Test.icdd
+2025-03-21 10:07:10,241 - INFO - Starting the ICDD...
+2025-03-21 10:08:14,656 - INFO - ICDD extracted in: C:\Users\Aleks\AppData\Local\Temp\tmpohj1d4kq
+2025-03-21 10:08:29,628 - INFO - Temporary directory C:\Users\Aleks\AppData\Local\Temp\tmpohj1d4kq deleted.
+2025-03-21 10:10:31,584 - INFO - Import CDE Backup started.
+2025-03-21 10:10:41,828 - INFO - ICDD extracted into C:\Users\Aleks\AppData\Local\Temp\tmp3s2xb6nj
+2025-03-21 10:11:11,453 - INFO - CDE Backup extracted into C:\Users\Aleks\AppData\Local\Temp\tmpji6prs36
+2025-03-21 10:11:11,454 - INFO - Flattened nested 'CDE Backup_1' folder.
+2025-03-21 10:11:43,160 - INFO - Index.rdf updated after CDE Backup import (no linkset).
+2025-03-21 10:12:10,974 - INFO - Updated ICDD saved: C:/Users/Aleks/Desktop/Final_Test_1.icdd
+2025-03-21 10:12:13,145 - INFO - Starting the ICDD...
+2025-03-21 10:12:16,089 - INFO - ICDD extracted in: C:\Users\Aleks\AppData\Local\Temp\tmpda81xr_k
+2025-03-21 10:12:40,870 - INFO - Temporary directory C:\Users\Aleks\AppData\Local\Temp\tmpda81xr_k deleted.
+2025-03-21 10:12:59,101 - INFO - Importing CSV/IFC links...
+2025-03-21 10:13:55,433 - INFO - Importing CSV/IFC links...
+2025-03-21 10:14:12,999 - INFO - ICDD extracted into C:\Users\Aleks\AppData\Local\Temp\tmpxs5efpi7
+2025-03-21 10:14:30,329 - INFO - IFC documents found: 1
+2025-03-21 10:14:30,330 - INFO - IFC full path: C:\Users\Aleks\AppData\Local\Temp\tmpxs5efpi7\Payload documents\CDE Backup_1\02_Untersuchungsplanung\20230907_TM_Untersuchungsplanung_a.ifc
+2025-03-21 10:14:30,392 - INFO - No IfcWall found, trying IfcProduct.
+2025-03-21 10:14:30,409 - WARNING - Document with path 'CDE Backup_1/GrundlagenInformationen/00815_BW816_KI_E_MF_001_--_z_TBW1.ifc' not found.
+2025-03-21 10:14:30,409 - WARNING - Document with path 'CDE Backup_1/GrundlagenInformationen/00815_BW816_KI_E_MF_001_--_z_TBW2.ifc' not found.
+2025-03-21 10:14:30,409 - WARNING - Documents not found for: CDE Backup_1/GrundlagenInformationen/00815_BW816_KI_E_MF_001_--_z_TBW1.ifc or CDE Backup_1/GrundlagenInformationen/00815_BW816_KI_E_MF_001_--_z_TBW2.ifc
+2025-03-21 10:14:30,409 - WARNING - Document with path 'CDE Backup_1/GrundlagenInformationen/00815_BW816_KI_E_MF_001_--_z_TBW1.ifc' not found.
+2025-03-21 10:14:30,409 - INFO - Found document by ct:filename: http://example.com/container/InternalDocument4e914712-f460-4672-a0d3-19d75da58211
+2025-03-21 10:14:30,409 - WARNING - Documents not found for: CDE Backup_1/GrundlagenInformationen/00815_BW816_KI_E_MF_001_--_z_TBW1.ifc or CDE Backup_1/02_Untersuchungsplanung/20230907_TM_Untersuchungsplanung_a.ifc
+2025-03-21 10:14:30,409 - WARNING - Document with path 'CDE Backup_1/GrundlagenInformationen/00815_BW816_KI_E_MF_001_--_z_TBW1.ifc' not found.
+2025-03-21 10:14:30,409 - WARNING - Document with path 'CDE Backup_1/02_Untersuchungsplanung/20230425_05219_02_AP2_kok_Untersuchungsplanung_Betondruckfestigkeit_klassisch.pdf' not found.
+2025-03-21 10:14:30,410 - WARNING - Documents not found for: CDE Backup_1/GrundlagenInformationen/00815_BW816_KI_E_MF_001_--_z_TBW1.ifc or CDE Backup_1/02_Untersuchungsplanung/20230425_05219_02_AP2_kok_Untersuchungsplanung_Betondruckfestigkeit_klassisch.pdf
+2025-03-21 10:14:30,410 - WARNING - Document with path 'CDE Backup_1/02_Untersuchungsplanung/20230425_05219_02_AP2_kok_Untersuchungsplanung_Betondruckfestigkeit_klassisch.pdf' not found.
+2025-03-21 10:14:30,410 - INFO - Found document by ct:filename: http://example.com/container/InternalDocument4e914712-f460-4672-a0d3-19d75da58211
+2025-03-21 10:14:30,410 - WARNING - Documents not found for: CDE Backup_1/02_Untersuchungsplanung/20230425_05219_02_AP2_kok_Untersuchungsplanung_Betondruckfestigkeit_klassisch.pdf or CDE Backup_1/02_Untersuchungsplanung/20230907_TM_Untersuchungsplanung_a.ifc
+2025-03-21 10:14:30,410 - WARNING - Document with path 'CDE Backup_1/02_Untersuchungsplanung/20230425_05219_02_AP2_kok_Untersuchungsplanung_Betondruckfestigkeit_klassisch.pdf' not found.
+2025-03-21 10:14:30,410 - INFO - Found document by ct:filename: http://example.com/container/InternalDocumenteee94f46-ebcf-4f77-b697-fe4eb22efb50
+2025-03-21 10:14:30,410 - WARNING - Documents not found for: CDE Backup_1/02_Untersuchungsplanung/20230425_05219_02_AP2_kok_Untersuchungsplanung_Betondruckfestigkeit_klassisch.pdf or CDE Backup_1/01_Vertragsunterlagen/20240619_Lv_sty_ohne_Preise_modellbasierte.pdf
+2025-03-21 10:14:30,410 - WARNING - Document with path 'CDE Backup_1/02_Untersuchungsplanung/20230425_05219_02_AP2_kok_Untersuchungsplanung_Betondruckfestigkeit_klassisch.pdf' not found.
+2025-03-21 10:14:30,410 - INFO - Found document by ct:filename: http://example.com/container/InternalDocumentce617d9b-0f0a-48ae-a0b1-e57ccd872bca
+2025-03-21 10:14:30,410 - WARNING - Documents not found for: CDE Backup_1/02_Untersuchungsplanung/20230425_05219_02_AP2_kok_Untersuchungsplanung_Betondruckfestigkeit_klassisch.pdf or CDE Backup_1/01_Vertragsunterlagen/20231110_openSIM_Objektkatalog.xlsx
+2025-03-21 10:14:30,410 - INFO - Found document by ct:filename: http://example.com/container/InternalDocumentf0f003d9-6cc0-4f7b-9af9-2be16752f7ab
+2025-03-21 10:14:30,410 - INFO - Found document by ct:filename: http://example.com/container/InternalDocument02fdf543-c0c5-488c-a776-cccf42803c81
+2025-03-21 10:14:30,410 - INFO - Found document by ct:filename: http://example.com/container/InternalDocumenteee94f46-ebcf-4f77-b697-fe4eb22efb50
+2025-03-21 10:14:30,411 - WARNING - Document with path 'CDE Backup_1/GrundlagenInformationen/00815_BW816_KI_E_MF_001_--_z_TBW1.ifc' not found.
+2025-03-21 10:14:30,411 - WARNING - Documents not found for: CDE Backup_1/01_Vertragsunterlagen/20240619_Lv_sty_ohne_Preise_modellbasierte.pdf or CDE Backup_1/GrundlagenInformationen/00815_BW816_KI_E_MF_001_--_z_TBW1.ifc
+2025-03-21 10:14:30,414 - INFO - Found document by ct:filename: http://example.com/container/InternalDocumentce617d9b-0f0a-48ae-a0b1-e57ccd872bca
+2025-03-21 10:14:30,414 - WARNING - Document with path 'CDE Backup_1/GrundlagenInformationen/00815_BW816_KI_E_MF_001_--_z_TBW1.ifc' not found.
+2025-03-21 10:14:30,414 - WARNING - Documents not found for: CDE Backup_1/01_Vertragsunterlagen/20231110_openSIM_Objektkatalog.xlsx or CDE Backup_1/GrundlagenInformationen/00815_BW816_KI_E_MF_001_--_z_TBW1.ifc
+2025-03-21 10:14:30,414 - INFO - Found document by ct:filename: http://example.com/container/InternalDocumentf0f003d9-6cc0-4f7b-9af9-2be16752f7ab
+2025-03-21 10:14:30,414 - INFO - Found document by ct:filename: http://example.com/container/InternalDocument31593103-f020-4f80-9460-fd9f9f8cb9ec
+2025-03-21 10:14:30,414 - INFO - Found document by ct:filename: http://example.com/container/InternalDocumentf0f003d9-6cc0-4f7b-9af9-2be16752f7ab
+2025-03-21 10:14:30,414 - INFO - Found document by ct:filename: http://example.com/container/InternalDocument5c566799-b829-4c12-95d0-b6126d44b22e
+2025-03-21 10:14:30,414 - WARNING - Document with path 'CDE Backup_1/GrundlagenInformationen/00815_BW816_KI_E_MF_001_--_z_TBW2.ifc' not found.
+2025-03-21 10:14:30,414 - INFO - Found document by ct:filename: http://example.com/container/InternalDocument4e914712-f460-4672-a0d3-19d75da58211
+2025-03-21 10:14:30,415 - WARNING - Documents not found for: CDE Backup_1/GrundlagenInformationen/00815_BW816_KI_E_MF_001_--_z_TBW2.ifc or CDE Backup_1/02_Untersuchungsplanung/20230907_TM_Untersuchungsplanung_a.ifc
+2025-03-21 10:14:30,415 - INFO - Found document by ct:filename: http://example.com/container/InternalDocumenteee94f46-ebcf-4f77-b697-fe4eb22efb50
+2025-03-21 10:14:30,415 - WARNING - Document with path 'CDE Backup_1/links.csv' not found.
+2025-03-21 10:14:30,415 - WARNING - Documents not found for: CDE Backup_1/01_Vertragsunterlagen/20240619_Lv_sty_ohne_Preise_modellbasierte.pdf or CDE Backup_1/links.csv
+2025-03-21 10:14:30,415 - INFO - Found document by ct:filename: http://example.com/container/InternalDocument31593103-f020-4f80-9460-fd9f9f8cb9ec
+2025-03-21 10:14:30,415 - INFO - Found document by ct:filename: http://example.com/container/InternalDocumentf0f003d9-6cc0-4f7b-9af9-2be16752f7ab
+2025-03-21 10:14:30,415 - INFO - Found document by ct:filename: http://example.com/container/InternalDocument4e914712-f460-4672-a0d3-19d75da58211
+2025-03-21 10:14:30,415 - INFO - Found document by ct:filename: http://example.com/container/InternalDocument31593103-f020-4f80-9460-fd9f9f8cb9ec
+2025-03-21 10:14:30,415 - INFO - Processing IfcProject in IFC file: C:\Users\Aleks\AppData\Local\Temp\tmpxs5efpi7\Payload documents\CDE Backup_1\02_Untersuchungsplanung\20230907_TM_Untersuchungsplanung_a.ifc
+2025-03-21 10:14:30,459 - INFO - Found IfcProject with GlobalId: 223Pa4wvfCy8HqjQa3iQkW in CDE Backup_1/02_Untersuchungsplanung/20230907_TM_Untersuchungsplanung_a.ifc
+2025-03-21 10:14:30,461 - INFO - Link file saved: C:\Users\Aleks\AppData\Local\Temp\tmpxs5efpi7\Payload triples\LinksetRelations_18418672-3160-4c0b-8e10-fb186e893bb2.rdf
+2025-03-21 10:14:30,464 - INFO - Index.rdf updated with CSV/IFC links (including IfcProject, IfcPart).
+2025-03-21 10:15:25,464 - INFO - Updated ICDD saved: C:/Users/Aleks/Desktop/Final_Test_12.icdd
+2025-03-21 10:15:26,887 - INFO - Starting the ICDD...
+2025-03-21 10:15:30,478 - INFO - ICDD extracted in: C:\Users\Aleks\AppData\Local\Temp\tmpc19za1fn
+2025-03-21 10:16:12,309 - INFO - Temporary directory C:\Users\Aleks\AppData\Local\Temp\tmpc19za1fn deleted.
+2025-03-21 10:17:18,392 - INFO - Starting the ICDD...
+2025-03-21 10:17:23,532 - INFO - ICDD extracted in: C:\Users\Aleks\AppData\Local\Temp\tmp60bb75ul
+2025-03-21 10:17:37,117 - INFO - Temporary directory C:\Users\Aleks\AppData\Local\Temp\tmp60bb75ul deleted.
+2025-03-21 10:21:24,018 - INFO - Index.rdf created at C:/Users/Aleks/Desktop\Complete_Build_Test\Index.rdf
+2025-03-21 10:22:14,448 - INFO - Import CDE Backup started.
+2025-03-21 10:22:41,424 - INFO - CDE Backup extracted into C:\Users\Aleks\AppData\Local\Temp\tmp1y4ogky9
+2025-03-21 10:22:41,426 - INFO - Flattened nested 'CDE Backup_1' folder.
+2025-03-21 10:24:00,799 - INFO - Index.rdf updated after CDE Backup import (no linkset).
+2025-03-21 10:24:36,781 - INFO - Importing CSV/IFC links...
+2025-03-21 10:24:51,294 - INFO - IFC documents found: 1
+2025-03-21 10:24:51,294 - INFO - IFC full path: C:/Users/Aleks/Desktop\Complete_Build_Test\Payload documents\CDE Backup_1\02_Untersuchungsplanung\20230907_TM_Untersuchungsplanung_a.ifc
+2025-03-21 10:24:51,344 - INFO - No IfcWall found, trying IfcProduct.
+2025-03-21 10:24:51,346 - WARNING - Document with path 'CDE Backup_1/GrundlagenInformationen/00815_BW816_KI_E_MF_001_--_z_TBW1.ifc' not found.
+2025-03-21 10:24:51,346 - WARNING - Document with path 'CDE Backup_1/GrundlagenInformationen/00815_BW816_KI_E_MF_001_--_z_TBW2.ifc' not found.
+2025-03-21 10:24:51,346 - WARNING - Documents not found for: CDE Backup_1/GrundlagenInformationen/00815_BW816_KI_E_MF_001_--_z_TBW1.ifc or CDE Backup_1/GrundlagenInformationen/00815_BW816_KI_E_MF_001_--_z_TBW2.ifc
+2025-03-21 10:24:51,346 - WARNING - Document with path 'CDE Backup_1/GrundlagenInformationen/00815_BW816_KI_E_MF_001_--_z_TBW1.ifc' not found.
+2025-03-21 10:24:51,346 - INFO - Found document by ct:filename: http://example.com/container/InternalDocument1c7e669d-bd1b-4150-930a-393fb91cf2ca
+2025-03-21 10:24:51,346 - WARNING - Documents not found for: CDE Backup_1/GrundlagenInformationen/00815_BW816_KI_E_MF_001_--_z_TBW1.ifc or CDE Backup_1/02_Untersuchungsplanung/20230907_TM_Untersuchungsplanung_a.ifc
+2025-03-21 10:24:51,347 - WARNING - Document with path 'CDE Backup_1/GrundlagenInformationen/00815_BW816_KI_E_MF_001_--_z_TBW1.ifc' not found.
+2025-03-21 10:24:51,347 - WARNING - Document with path 'CDE Backup_1/02_Untersuchungsplanung/20230425_05219_02_AP2_kok_Untersuchungsplanung_Betondruckfestigkeit_klassisch.pdf' not found.
+2025-03-21 10:24:51,347 - WARNING - Documents not found for: CDE Backup_1/GrundlagenInformationen/00815_BW816_KI_E_MF_001_--_z_TBW1.ifc or CDE Backup_1/02_Untersuchungsplanung/20230425_05219_02_AP2_kok_Untersuchungsplanung_Betondruckfestigkeit_klassisch.pdf
+2025-03-21 10:24:51,347 - WARNING - Document with path 'CDE Backup_1/02_Untersuchungsplanung/20230425_05219_02_AP2_kok_Untersuchungsplanung_Betondruckfestigkeit_klassisch.pdf' not found.
+2025-03-21 10:24:51,347 - INFO - Found document by ct:filename: http://example.com/container/InternalDocument1c7e669d-bd1b-4150-930a-393fb91cf2ca
+2025-03-21 10:24:51,347 - WARNING - Documents not found for: CDE Backup_1/02_Untersuchungsplanung/20230425_05219_02_AP2_kok_Untersuchungsplanung_Betondruckfestigkeit_klassisch.pdf or CDE Backup_1/02_Untersuchungsplanung/20230907_TM_Untersuchungsplanung_a.ifc
+2025-03-21 10:24:51,347 - WARNING - Document with path 'CDE Backup_1/02_Untersuchungsplanung/20230425_05219_02_AP2_kok_Untersuchungsplanung_Betondruckfestigkeit_klassisch.pdf' not found.
+2025-03-21 10:24:51,347 - INFO - Found document by ct:filename: http://example.com/container/InternalDocument0f0e7e99-2ad8-4670-b230-ced9b0cc4677
+2025-03-21 10:24:51,347 - WARNING - Documents not found for: CDE Backup_1/02_Untersuchungsplanung/20230425_05219_02_AP2_kok_Untersuchungsplanung_Betondruckfestigkeit_klassisch.pdf or CDE Backup_1/01_Vertragsunterlagen/20240619_Lv_sty_ohne_Preise_modellbasierte.pdf
+2025-03-21 10:24:51,347 - WARNING - Document with path 'CDE Backup_1/02_Untersuchungsplanung/20230425_05219_02_AP2_kok_Untersuchungsplanung_Betondruckfestigkeit_klassisch.pdf' not found.
+2025-03-21 10:24:51,347 - INFO - Found document by ct:filename: http://example.com/container/InternalDocumentc539cc95-c02e-4bcc-a85a-c02767033d31
+2025-03-21 10:24:51,347 - WARNING - Documents not found for: CDE Backup_1/02_Untersuchungsplanung/20230425_05219_02_AP2_kok_Untersuchungsplanung_Betondruckfestigkeit_klassisch.pdf or CDE Backup_1/01_Vertragsunterlagen/20231110_openSIM_Objektkatalog.xlsx
+2025-03-21 10:24:51,347 - INFO - Found document by ct:filename: http://example.com/container/InternalDocument79bea84b-c557-4ee1-8499-1cac3675fbdd
+2025-03-21 10:24:51,348 - INFO - Found document by ct:filename: http://example.com/container/InternalDocument05a0e394-4cb0-42be-a5da-7bc03777c90a
+2025-03-21 10:24:51,348 - INFO - Found document by ct:filename: http://example.com/container/InternalDocument0f0e7e99-2ad8-4670-b230-ced9b0cc4677
+2025-03-21 10:24:51,348 - WARNING - Document with path 'CDE Backup_1/GrundlagenInformationen/00815_BW816_KI_E_MF_001_--_z_TBW1.ifc' not found.
+2025-03-21 10:24:51,348 - WARNING - Documents not found for: CDE Backup_1/01_Vertragsunterlagen/20240619_Lv_sty_ohne_Preise_modellbasierte.pdf or CDE Backup_1/GrundlagenInformationen/00815_BW816_KI_E_MF_001_--_z_TBW1.ifc
+2025-03-21 10:24:51,351 - INFO - Found document by ct:filename: http://example.com/container/InternalDocumentc539cc95-c02e-4bcc-a85a-c02767033d31
+2025-03-21 10:24:51,351 - WARNING - Document with path 'CDE Backup_1/GrundlagenInformationen/00815_BW816_KI_E_MF_001_--_z_TBW1.ifc' not found.
+2025-03-21 10:24:51,351 - WARNING - Documents not found for: CDE Backup_1/01_Vertragsunterlagen/20231110_openSIM_Objektkatalog.xlsx or CDE Backup_1/GrundlagenInformationen/00815_BW816_KI_E_MF_001_--_z_TBW1.ifc
+2025-03-21 10:24:51,351 - INFO - Found document by ct:filename: http://example.com/container/InternalDocument79bea84b-c557-4ee1-8499-1cac3675fbdd
+2025-03-21 10:24:51,351 - INFO - Found document by ct:filename: http://example.com/container/InternalDocument38be9657-d984-4fae-b071-b254b8d35943
+2025-03-21 10:24:51,351 - INFO - Found document by ct:filename: http://example.com/container/InternalDocument79bea84b-c557-4ee1-8499-1cac3675fbdd
+2025-03-21 10:24:51,351 - INFO - Found document by ct:filename: http://example.com/container/InternalDocument8f7f719c-a448-4574-9e74-bb7932c511fb
+2025-03-21 10:24:51,351 - WARNING - Document with path 'CDE Backup_1/GrundlagenInformationen/00815_BW816_KI_E_MF_001_--_z_TBW2.ifc' not found.
+2025-03-21 10:24:51,352 - INFO - Found document by ct:filename: http://example.com/container/InternalDocument1c7e669d-bd1b-4150-930a-393fb91cf2ca
+2025-03-21 10:24:51,352 - WARNING - Documents not found for: CDE Backup_1/GrundlagenInformationen/00815_BW816_KI_E_MF_001_--_z_TBW2.ifc or CDE Backup_1/02_Untersuchungsplanung/20230907_TM_Untersuchungsplanung_a.ifc
+2025-03-21 10:24:51,352 - INFO - Found document by ct:filename: http://example.com/container/InternalDocument0f0e7e99-2ad8-4670-b230-ced9b0cc4677
+2025-03-21 10:24:51,352 - WARNING - Document with path 'CDE Backup_1/links.csv' not found.
+2025-03-21 10:24:51,352 - WARNING - Documents not found for: CDE Backup_1/01_Vertragsunterlagen/20240619_Lv_sty_ohne_Preise_modellbasierte.pdf or CDE Backup_1/links.csv
+2025-03-21 10:24:51,352 - INFO - Found document by ct:filename: http://example.com/container/InternalDocument38be9657-d984-4fae-b071-b254b8d35943
+2025-03-21 10:24:51,352 - INFO - Found document by ct:filename: http://example.com/container/InternalDocument79bea84b-c557-4ee1-8499-1cac3675fbdd
+2025-03-21 10:24:51,352 - INFO - Found document by ct:filename: http://example.com/container/InternalDocument1c7e669d-bd1b-4150-930a-393fb91cf2ca
+2025-03-21 10:24:51,352 - INFO - Found document by ct:filename: http://example.com/container/InternalDocument38be9657-d984-4fae-b071-b254b8d35943
+2025-03-21 10:24:51,352 - INFO - Processing IfcProject in IFC file: C:/Users/Aleks/Desktop\Complete_Build_Test\Payload documents\CDE Backup_1\02_Untersuchungsplanung\20230907_TM_Untersuchungsplanung_a.ifc
+2025-03-21 10:24:51,395 - INFO - Found IfcProject with GlobalId: 223Pa4wvfCy8HqjQa3iQkW in CDE Backup_1/02_Untersuchungsplanung/20230907_TM_Untersuchungsplanung_a.ifc
+2025-03-21 10:24:51,397 - INFO - Link file saved: C:/Users/Aleks/Desktop\Complete_Build_Test\Payload triples\LinksetRelations_d4f8b1d8-fe89-49cc-8198-2568d25a181a.rdf
+2025-03-21 10:24:51,400 - INFO - Index.rdf updated with CSV/IFC links (including IfcProject, IfcPart).
+2025-03-21 10:25:47,270 - INFO - The final ICDD container has been saved: C:/Users/Aleks/Desktop/Complete_Build_Test_Created.icdd
+2025-03-21 10:25:48,475 - INFO - Starting ICDD creation...
+2025-03-21 10:25:51,024 - INFO - Starting the ICDD...
+2025-03-21 10:25:57,433 - INFO - ICDD extracted in: C:\Users\Aleks\AppData\Local\Temp\tmppom1tqdp
+2025-03-21 10:26:22,116 - INFO - Temporary directory C:\Users\Aleks\AppData\Local\Temp\tmppom1tqdp deleted.
