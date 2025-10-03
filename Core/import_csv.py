@@ -16,24 +16,26 @@ try:
 except ImportError:
     ifcopenshell = None
 
-from Core.rdf_utils import find_document_uri, generate_uri
+from Core.rdf_utils import (
+    find_document_uri,
+    generate_uri,
+    create_directed_link,
+    build_iso_semantics_index,
+    normalize_csv_type_to_iso,
+)
 from Core.file_utils import remove_repeated_segments
 
 logger = logging.getLogger(__name__)
 
 def process_csv_links(container_dir=None, ask_save=True):
     """
-    Imports CSV/IFC links into an ICDD container.
-
-    1) If container_dir is None (standalone mode):
-       - Asks user for an ICDD file
-       - Extracts it into a temp folder
-       - Updates CSV/IFC links
-       - If ask_save=True, repacks into .icdd
-    2) If container_dir is not None (combined mode, e.g. complete_build):
-       - We already know where the container is; do not ask for "ICDD file"
-       - Directly update container_dir in place
-       - If ask_save=False, do not prompt for final save
+    Imports CSV/IFC links into an ICDD container (ISO-only):
+      - Each row becomes an ls:Link with two ls:LinkElement (from/to) and ls:hasDocument on each.
+      - The semantic type is taken from ExtendedLinkset.rdf (els:*) using aliases for common human terms.
+      - Structure is chosen automatically (ls:Directed1toNLink or ls:DirectedBinaryLink).
+      - If a CSV type is not recognized, we still create a valid ISO link (1→N) and add rdfs:comment note.
+      - If GUID is provided, we attach ls:StringBasedIdentifier to the TO end.
+      - For IFC (optional), we can add HasPart links inside the IFC document, anchoring by GUID/Project.
     """
 
     logger.info("Importing CSV/IFC links...")
@@ -146,13 +148,22 @@ def process_csv_links(container_dir=None, ask_save=True):
         if not ifcopenshell:
             logger.warning("IfcOpenShell not installed. IFC objects won't be processed automatically.")
 
-    # 5) Create a new RDF graph for linkset
+    # 5) Create a new RDF graph for links
     g_links = Graph()
-    LS = Namespace("https://standards.iso.org/iso/21597/-1/ed-1/en/Linkset#")
+    LS  = Namespace("https://standards.iso.org/iso/21597/-1/ed-1/en/Linkset#")
+    ELS = Namespace("https://standards.iso.org/iso/21597/-2/ed-1/en/ExtendedLinkset#")
     g_links.bind("ls", LS)
+    g_links.bind("els", ELS)
     g_links.bind("owl", "http://www.w3.org/2002/07/owl#")
     g_links.bind("rdf", "http://www.w3.org/1999/02/22-rdf-syntax-ns#")
     g_links.bind("ct", CT)
+
+    # 5.1) Build ISO semantics index (from Ontology resources/ExtendedLinkset.rdf)
+    els_path = os.path.join(container_dir, "Ontology resources", "ExtendedLinkset.rdf")
+    name_to_uri, g_els = build_iso_semantics_index(els_path)
+    if not name_to_uri:
+        logger.warning("ExtendedLinkset index is empty. Semantic mapping will be limited to aliases; "
+                       "unrecognized types will fall back to generic ls:Link + ls:Directed1toNLink.")
 
     # 6) Read CSV lines
     try:
@@ -172,55 +183,59 @@ def process_csv_links(container_dir=None, ask_save=True):
 
             for row in reader:
                 from_path = row["fromPath"].strip().lstrip("\\/").replace("\\", "/")
-                to_path = row["toPath"].strip().lstrip("\\/").replace("\\", "/")
-                relation_type = row["Type"].strip()
+                to_path   = row["toPath"].strip().lstrip("\\/").replace("\\", "/")
+                relation_type = (row["Type"] or "").strip()
 
                 from_uri = find_document_uri(g_index, CT, from_path)
-                to_uri = find_document_uri(g_index, CT, to_path)
+                to_uri   = find_document_uri(g_index, CT, to_path)
                 if not from_uri or not to_uri:
                     logger.warning(f"Documents not found for: {from_path} or {to_path}")
                     continue
 
-                # Create a Linkset for this row
-                linkset_uri = generate_uri(base_uri, "Linkset")
-                g_links.add((linkset_uri, RDF.type, LS.Linkset))
-                g_links.add((linkset_uri, LS.hasFromLinkElement, from_uri))
-                g_links.add((linkset_uri, LS.hasToLinkElement, to_uri))
-                g_links.add((linkset_uri, LS.relationType, Literal(relation_type, datatype=XSD.string)))
+                # Prepare optional identifier (GUID on TO end)
+                guid_value = (row.get("GUID") or "").strip()
+                to_identifier = {"kind": "string", "value": guid_value, "field": "GUID"} if guid_value else None
 
-                # If there's a GUID, add an identifier
-                if "GUID" in row and row["GUID"].strip():
-                    guid_value = row["GUID"].strip()
-                    identifier_uri = generate_uri(base_uri, "StringBasedIdentifier")
-                    g_links.add((identifier_uri, LS.identifierField, Literal("GUID", datatype=XSD.string)))
-                    g_links.add((identifier_uri, LS.identifier, Literal(guid_value, datatype=XSD.string)))
-                    g_links.add((linkset_uri, LS.hasIdentifier, identifier_uri))
+                # Map CSV type to ISO sem.type + structural kind
+                sem_uri, structural_kind = normalize_csv_type_to_iso(relation_type, name_to_uri, g_els)
+                note = None
+                if sem_uri is None:
+                    note = f"Unmapped CSV Type: '{relation_type}'"
+                    logger.warning(note)
 
-                # If GUID is found in IFC objects => add an IfcPart linkset
-                if "GUID" in row and row["GUID"].strip() and ifc_objects_dict:
-                    guid_value = row["GUID"].strip()
-                    if guid_value in ifc_objects_dict:
-                        logger.info(f"IFC object with GUID found: {guid_value}")
-                        ifc_linkset_uri = generate_uri(base_uri, "Linkset")
-                        g_links.add((ifc_linkset_uri, RDF.type, LS.Linkset))
-                        from_ifc = ifc_uris[0]  # just pick the first IFC doc
-                        component_uri = URIRef(f"{base_uri}/IfcComponent_{guid_value}")
+                # Create ISO link
+                create_directed_link(
+                    g=g_links,
+                    LS_ns=LS,
+                    base_uri=base_uri,
+                    from_document_uri=from_uri,   # ct:Document from Index.rdf
+                    to_document_uri=to_uri,       # ct:Document from Index.rdf
+                    sem_uri=sem_uri,              # ELS:* or None
+                    structural_kind=structural_kind,  # "Directed1toN"/"DirectedBinary"
+                    to_identifier=to_identifier,  # identifier on TO end (if GUID present)
+                    note=note
+                )
 
-                        g_links.add((ifc_linkset_uri, LS.hasFromLinkElement, from_ifc))
-                        g_links.add((ifc_linkset_uri, LS.hasToLinkElement, component_uri))
-                        g_links.add((ifc_linkset_uri, LS.relationType, Literal("IfcPart", datatype=XSD.string)))
+                # If GUID exists and IFC is present → add HasPart inside IFC (anchor by GUID)
+                if guid_value and ifc_uris:
+                    from_ifc = ifc_uris[0]  # use first IFC document declared in Index.rdf
+                    create_directed_link(
+                        g=g_links,
+                        LS_ns=LS,
+                        base_uri=base_uri,
+                        from_document_uri=from_ifc,
+                        to_document_uri=from_ifc,
+                        sem_uri=ELS.HasPart,               # ISO semantic
+                        structural_kind="Directed1toN",    # HasPart is 1→N
+                        to_identifier={"kind": "string", "value": guid_value, "field": "GUID"},
+                        note=None
+                    )
 
-                        identifier_uri = generate_uri(base_uri, "StringBasedIdentifier")
-                        g_links.add((identifier_uri, LS.identifierField, Literal("GUID", datatype=XSD.string)))
-                        g_links.add((identifier_uri, LS.identifier, Literal(guid_value, datatype=XSD.string)))
-                        g_links.add((ifc_linkset_uri, LS.hasIdentifier, identifier_uri))
-                    else:
-                        logger.warning(f"IFC object with GUID {guid_value} not found.")
     except Exception as e:
         messagebox.showerror("CSV Import Error", f"Error reading CSV: {e}")
         return
 
-    # 7) Also process IfcProject: add an entry for the root element if found
+    # 7) Also process IfcProject: add a HasPart link for the root element if found
     if ifc_uris and ifcopenshell:
         for ifc_uri in ifc_uris:
             try:
@@ -237,22 +252,25 @@ def process_csv_links(container_dir=None, ask_save=True):
                         if projects:
                             ifc_project = projects[0]
                             logger.info(f"Found IfcProject with GlobalId: {ifc_project.GlobalId} in {ifc_filename}")
-                            project_uri = URIRef(f"{base_uri}/IfcProject_{ifc_project.GlobalId}")
-                            linkset_uri = generate_uri(base_uri, "Linkset")
-                            g_links.add((linkset_uri, RDF.type, LS.Linkset))
-                            g_links.add((linkset_uri, LS.hasFromLinkElement, ifc_uri))
-                            g_links.add((linkset_uri, LS.hasToLinkElement, project_uri))
-                            g_links.add((linkset_uri, LS.relationType, Literal("IfcProject", datatype=XSD.string)))
-                            identifier_uri = generate_uri(base_uri, "StringBasedIdentifier")
-                            g_links.add((identifier_uri, LS.identifierField, Literal("GUID", datatype=XSD.string)))
-                            g_links.add((identifier_uri, LS.identifier, Literal(ifc_project.GlobalId, datatype=XSD.string)))
-                            g_links.add((linkset_uri, LS.hasIdentifier, identifier_uri))
+
+                            # HasPart inside IFC (1→N), anchor IfcProject by GUID on TO-end
+                            create_directed_link(
+                                g=g_links,
+                                LS_ns=LS,
+                                base_uri=base_uri,
+                                from_document_uri=ifc_uri,
+                                to_document_uri=ifc_uri,
+                                sem_uri=ELS.HasPart,
+                                structural_kind="Directed1toN",
+                                to_identifier={"kind": "string", "value": ifc_project.GlobalId, "field": "GUID"},
+                                note=None
+                            )
                         else:
                             logger.info(f"IfcProject not found in IFC file: {ifc_filename}")
             except Exception as e:
                 logger.error(f"Error processing IfcProject from IFC file: {e}")
 
-    # 8) Save the new Linkset file in "Payload triples"
+    # 8) Save the new Link file in "Payload triples"
     payload_triplets_path = os.path.join(container_dir, "Payload triples")
     os.makedirs(payload_triplets_path, exist_ok=True)
     linkset_filename = f"LinksetRelations_{uuid.uuid4()}.rdf"
@@ -263,8 +281,8 @@ def process_csv_links(container_dir=None, ask_save=True):
     # 9) Update Index.rdf with a link to that link file
     linkset_file_ref = f"{base_uri}/Payload%20triples/{linkset_filename}"
     g_index.add((container_uri, CT.containsLinkset, URIRef(linkset_file_ref)))
-    g_index.serialize(destination=index_path, format="pretty-xml")
-    logger.info("Index.rdf updated with CSV/IFC links (including IfcProject, IfcPart).")
+    g_index.serialize(destination=index_path, format='pretty-xml')
+    logger.info("Index.rdf updated with CSV/IFC links (ISO-only).")
 
     # 10) If ask_save=True => repack (standalone mode)
     if ask_save:

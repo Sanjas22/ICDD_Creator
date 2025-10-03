@@ -77,5 +77,5 @@ def create_icdd():
     # Archiving the ICDD (.icdd)
     icdd_archive = f"{icdd_dir}.icdd"
     make_icdd_archive(icdd_dir, icdd_archive)
-    messagebox.showinfo("ICDD Creation", f"ICDD контейнер создан: {icdd_archive}")
-    logger.info(f"ICDD создан: {icdd_archive}")
+    messagebox.showinfo("ICDD Creation", f"ICDD container was created: {icdd_archive}")
+    logger.info(f"ICDD created: {icdd_archive}")

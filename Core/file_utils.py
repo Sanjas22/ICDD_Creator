@@ -8,7 +8,7 @@ logger = logging.getLogger(__name__)
 
 def get_file_type(file_path):
     """
-    Возвращает расширение файла в нижнем регистре.
+    Returns the file extension in lowercase.
     """
     _, ext = os.path.splitext(file_path)
     return ext.lower()

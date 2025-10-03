@@ -14,31 +14,13 @@ logger = logging.getLogger(__name__)
 
 
 def import_cde_backup(container_dir=None, ask_save=True):
-    """
-    Imports a CDE Backup into an ICDD container.
-
-    :param container_dir:
-        - If None (default), the function runs in standalone mode:
-          1) Asks the user to select an ICDD file.
-          2) Extracts it to temp.
-          3) Updates that container.
-          4) Optionally saves it again if ask_save=True.
-        - If not None, this is the folder of an already created container
-          (as in the 'complete_build' scenario). Then we do NOT ask for an ICDD file,
-          we just update the given container_dir in place.
-
-    :param ask_save:
-        - If True (default), at the end we prompt to save (repack) the updated container.
-        - If False, we only update 'container_dir' in place and do not prompt
-          for final saving.
-    """
 
     logger.info("Import CDE Backup started.")
 
-    # 1) Если container_dir == None, работаем в одиночном режиме:
+    # 1) If container_dir == None, we work in single mode:
     icdd_temp_dir = None
     if container_dir is None:
-        # Спросим, какой ICDD файл обновлять
+        # ask which ICDD file to update
         icdd_file_path = filedialog.askopenfilename(
             title="Select ICDD file for import",
             filetypes=[("ICDD files", "*.icdd"), ("ZIP files", "*.zip"), ("All files", "*.*")]
@@ -47,14 +29,14 @@ def import_cde_backup(container_dir=None, ask_save=True):
             messagebox.showwarning("Selection Error", "No ICDD file selected.")
             return
 
-        # Распакуем выбранный ICDD во временную директорию
+        # Unpack the selected ICDD into a temporary directory
         icdd_temp_dir = tempfile.mkdtemp()
         try:
             with zipfile.ZipFile(icdd_file_path, 'r') as zip_ref:
                 zip_ref.extractall(icdd_temp_dir)
             logger.info(f"ICDD extracted into {icdd_temp_dir}")
 
-            # Теперь мы будем работать с этим temp ICDD
+            # Now we work with this temp ICDD
             container_dir = icdd_temp_dir
 
         except Exception as e:
@@ -63,29 +45,29 @@ def import_cde_backup(container_dir=None, ask_save=True):
             shutil.rmtree(icdd_temp_dir, ignore_errors=True)
             return
 
-    # 2) Выбираем CDE Backup ZIP (в любом режиме)
+    # 2) Select CDE Backup ZIP (in any mode)
     cde_backup_path = filedialog.askopenfilename(
         title="Select CDE Backup file",
         filetypes=[("ZIP files", "*.zip"), ("All files", "*.*")]
     )
     if not cde_backup_path:
         messagebox.showwarning("Selection Error", "No CDE Backup file selected.")
-        # Если мы в одиночном режиме, нужно убрать temp dir
+        # If we are in single mode, need to remove the temp dir
         if icdd_temp_dir:
             shutil.rmtree(icdd_temp_dir, ignore_errors=True)
         return
 
-    # 3) Извлекаем CDE Backup во временную директорию
+    # 3) Extract CDE Backup to a temporary directory
     cde_temp_dir = tempfile.mkdtemp()
     try:
         with zipfile.ZipFile(cde_backup_path, 'r') as zip_ref:
             zip_ref.extractall(cde_temp_dir)
         logger.info(f"CDE Backup extracted into {cde_temp_dir}")
 
-        # Flatten nested "CDE Backup_1"
+        # Flatten nested CDE
         flatten_double_cde_backup(cde_temp_dir)
 
-        # Пользователь выбирает папки и файлы из CDE
+        # The user selects folders and files from CDE.
         messagebox.showinfo(
             "Select Folders",
             "Select folders to copy from CDE Backup.\nClick 'Cancel' when finished."
@@ -106,7 +88,7 @@ def import_cde_backup(container_dir=None, ask_save=True):
             filetypes=[("All files", "*.*")]
         )
 
-        # 4) Копируем выбранные элементы в Payload documents
+        # 4) Copy the selected items to Payload documents
         payload_documents_path = os.path.join(container_dir, 'Payload documents')
         os.makedirs(payload_documents_path, exist_ok=True)
 
@@ -123,7 +105,7 @@ def import_cde_backup(container_dir=None, ask_save=True):
             os.makedirs(os.path.dirname(dest), exist_ok=True)
             shutil.copy(file, dest)
 
-        # 5) Обновляем Index.rdf (находим его в container_dir)
+        # 5) Update Index.rdf (located in container_dir)
         index_path = os.path.join(container_dir, 'Index.rdf')
         if not os.path.exists(index_path):
             messagebox.showerror("Index Error", "Index.rdf not found in the container.")
@@ -144,8 +126,8 @@ def import_cde_backup(container_dir=None, ask_save=True):
         g.serialize(destination=index_path, format='pretty-xml')
         logger.info("Index.rdf updated after CDE Backup import (no linkset).")
 
-        # 6) Если ask_save=True, упаковываем обратно (только для одиночного режима
-        #    или если пользователь действительно хочет сохранить)
+        # 6) If ask_save=True, pack it back (only for single mode
+        #    or if the user really wants to save)
         if ask_save:
             updated_icdd_path = filedialog.asksaveasfilename(
                 title="Save updated ICDD",
@@ -153,7 +135,7 @@ def import_cde_backup(container_dir=None, ask_save=True):
                 filetypes=[("ICDD files", "*.icdd")]
             )
             if updated_icdd_path:
-                # Архивируем container_dir
+                # Archive container_dir
                 shutil.make_archive(container_dir, 'zip', container_dir)
                 os.rename(f"{container_dir}.zip", updated_icdd_path)
                 messagebox.showinfo("Import Success", f"Updated ICDD saved: {updated_icdd_path}")
@@ -165,9 +147,9 @@ def import_cde_backup(container_dir=None, ask_save=True):
         logger.error(f"Error importing CDE Backup: {e}")
         messagebox.showerror("CDE Import Error", f"Error: {e}")
     finally:
-        # Если мы в одиночном режиме (icdd_temp_dir != None),
-        # и ask_save=True, значит мы уже сохранили => удаляем temp
-        # Если ask_save=False, значит этот temp всё равно не нужен
+        # If we are in single mode (icdd_temp_dir != None),
+        # and ask_save=True, then we have already saved => delete temp
+        # If ask_save=False, then this temp is not needed anyway
         if icdd_temp_dir:
             shutil.rmtree(icdd_temp_dir, ignore_errors=True)
         shutil.rmtree(cde_temp_dir, ignore_errors=True)
